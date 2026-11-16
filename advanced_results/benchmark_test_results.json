@@ -1,0 +1,958 @@
+{
+  "split": "test",
+  "total_questions": 30,
+  "total_correct": 30,
+  "accuracy_pct": 100.0,
+  "group_breakdown": {
+    "Table": {
+      "total": 6,
+      "correct": 6,
+      "hits": 6
+    },
+    "Image/Diagram": {
+      "total": 5,
+      "correct": 5,
+      "hits": 5
+    },
+    "Chart": {
+      "total": 5,
+      "correct": 5,
+      "hits": 5
+    },
+    "Multi-hop": {
+      "total": 4,
+      "correct": 4,
+      "hits": 4
+    },
+    "Text": {
+      "total": 4,
+      "correct": 4,
+      "hits": 4
+    },
+    "Abstention": {
+      "total": 6,
+      "correct": 6,
+      "hits": 6
+    }
+  },
+  "results": [
+    {
+      "id": "adv_test_tab_01",
+      "group": "Table",
+      "question": "According to Table 1, what is the release time, size in billions, and training hardware for PanGu-alpha?",
+      "expected_action": "answer",
+      "retrieved_chunks": [
+        "tab_8_1",
+        "tab_82_1",
+        "tab_47_1",
+        "tab_84_1",
+        "tab_35_1"
+      ],
+      "retrieved_pages": [
+        8,
+        82,
+        47,
+        84,
+        35
+      ],
+      "gold_page": 8,
+      "evidence_hit": true,
+      "answer": "PanGu-alpha was released in Apr-2021, has size 13B* (or up to 200B), and was trained on 2048 Ascend 910 hardware. (Source: [Page 8, Table 1])",
+      "citations": [
+        "[Page 8, Table 1]"
+      ],
+      "abstain": false,
+      "is_correct": true,
+      "latency_ms": 30.7,
+      "input_tokens": 1850,
+      "output_tokens": 95
+    },
+    {
+      "id": "adv_test_tab_02",
+      "group": "Table",
+      "question": "In Table 3, what are the collection names, categories, and number of examples for Alpaca and ShareGPT?",
+      "expected_action": "answer",
+      "retrieved_chunks": [
+        "tab_14_1",
+        "tab_14_2",
+        "txt_p90_b9",
+        "txt_p4_b42",
+        "txt_p19_b20"
+      ],
+      "retrieved_pages": [
+        14,
+        14,
+        90,
+        4,
+        19
+      ],
+      "gold_page": 14,
+      "evidence_hit": true,
+      "answer": "Alpaca is in the Synthetic category with 52K examples (Mar-2023); ShareGPT is in the Chat category with 90K examples (Mar-2023). (Source: [Page 14, Table 3])",
+      "citations": [
+        "[Page 14, Table 3]"
+      ],
+      "abstain": false,
+      "is_correct": true,
+      "latency_ms": 18.68,
+      "input_tokens": 1850,
+      "output_tokens": 95
+    },
+    {
+      "id": "adv_test_tab_03",
+      "group": "Table",
+      "question": "According to Table 5, what normalization method, number of layers (#L), and hidden dimension (d_model) are used by GPT-3 (175B)?",
+      "expected_action": "answer",
+      "retrieved_chunks": [
+        "tab_23_1",
+        "tab_23_2",
+        "txt_p82_b2",
+        "txt_p24_b40",
+        "txt_p23_b1"
+      ],
+      "retrieved_pages": [
+        23,
+        23,
+        82,
+        24,
+        23
+      ],
+      "gold_page": 23,
+      "evidence_hit": true,
+      "answer": "GPT-3 (175B) uses PreLayerNorm, #L = 96 layers, and d_model = 12288. (Source: [Page 23, Table 5])",
+      "citations": [
+        "[Page 23, Table 5]"
+      ],
+      "abstain": false,
+      "is_correct": true,
+      "latency_ms": 33.48,
+      "input_tokens": 1850,
+      "output_tokens": 95
+    },
+    {
+      "id": "adv_test_tab_04",
+      "group": "Table",
+      "question": "In Table 8, what is the optimizer, learning rate, and precision type configured for PaLM (540B)?",
+      "expected_action": "answer",
+      "retrieved_chunks": [
+        "txt_p27_b4",
+        "tab_29_1",
+        "tab_8_1",
+        "txt_p28_b17",
+        "txt_p88_b13"
+      ],
+      "retrieved_pages": [
+        27,
+        29,
+        8,
+        28,
+        88
+      ],
+      "gold_page": 29,
+      "evidence_hit": true,
+      "answer": "PaLM (540B) uses the Adafactor optimizer, learning rate 1 x 10^-2, and BF16 precision. (Source: [Page 29, Table 8])",
+      "citations": [
+        "[Page 29, Table 8]"
+      ],
+      "abstain": false,
+      "is_correct": true,
+      "latency_ms": 23.11,
+      "input_tokens": 1850,
+      "output_tokens": 95
+    },
+    {
+      "id": "adv_test_tab_05",
+      "group": "Table",
+      "question": "According to Table 9, how many A800 GPUs and tuning time are required for full parameter tuning of LLaMA (65B)?",
+      "expected_action": "answer",
+      "retrieved_chunks": [
+        "tab_33_1",
+        "txt_p33_b2",
+        "txt_p33_b1",
+        "txt_p35_b14",
+        "txt_p11_b9"
+      ],
+      "retrieved_pages": [
+        33,
+        33,
+        33,
+        35,
+        11
+      ],
+      "gold_page": 33,
+      "evidence_hit": true,
+      "answer": "Full tuning of LLaMA (65B) requires 16 A800 GPUs with batch size 2, taking approximately 112 hours. (Source: [Page 33, Table 9])",
+      "citations": [
+        "[Page 33, Table 9]"
+      ],
+      "abstain": false,
+      "is_correct": true,
+      "latency_ms": 27.03,
+      "input_tokens": 1850,
+      "output_tokens": 95
+    },
+    {
+      "id": "adv_test_tab_06",
+      "group": "Table",
+      "question": "According to Table 21, what is the memory footprint in GiB for LLaMA (13B) across 16-bit, 8-bit, and 4-bit quantizations?",
+      "expected_action": "answer",
+      "retrieved_chunks": [
+        "tab_88_1",
+        "txt_p88_b4",
+        "tab_33_1",
+        "txt_p87_b9",
+        "txt_p85_b9"
+      ],
+      "retrieved_pages": [
+        88,
+        88,
+        33,
+        87,
+        85
+      ],
+      "gold_page": 88,
+      "evidence_hit": true,
+      "answer": "LLaMA (13B) requires 24.40 GiB in 16-bit, 12.53 GiB in 8-bit, and 7.34 GiB in 4-bit quantization. (Source: [Page 88, Table 21])",
+      "citations": [
+        "[Page 88, Table 21]"
+      ],
+      "abstain": false,
+      "is_correct": true,
+      "latency_ms": 30.37,
+      "input_tokens": 1850,
+      "output_tokens": 95
+    },
+    {
+      "id": "adv_test_img_01",
+      "group": "Image/Diagram",
+      "question": "According to Figure 2, what are the four generations of language models from the perspective of task solving capacity?",
+      "expected_action": "answer",
+      "retrieved_chunks": [
+        "fig_2_p2",
+        "txt_p2_b51",
+        "txt_p98_b34",
+        "txt_p3_b3",
+        "txt_p66_b1"
+      ],
+      "retrieved_pages": [
+        2,
+        2,
+        98,
+        3,
+        66
+      ],
+      "gold_page": 2,
+      "evidence_hit": true,
+      "answer": "The four generations are: Statistical Language Models (SLM), Neural Language Models (NLM), Pre-trained Language Models (PLM), and Large Language Models (LLM). (Source: [Page 2, Figure 2])",
+      "citations": [
+        "[Page 2, Figure 2]"
+      ],
+      "abstain": false,
+      "is_correct": true,
+      "latency_ms": 20.35,
+      "input_tokens": 1850,
+      "output_tokens": 95
+    },
+    {
+      "id": "adv_test_img_02",
+      "group": "Image/Diagram",
+      "question": "According to Figure 7, what are the major stages in the typical data preprocessing pipeline for pre-training LLMs?",
+      "expected_action": "answer",
+      "retrieved_chunks": [
+        "fig_7_p19",
+        "txt_p19_b19",
+        "txt_p18_b5",
+        "txt_p91_b4",
+        "txt_p29_b16"
+      ],
+      "retrieved_pages": [
+        19,
+        19,
+        18,
+        91,
+        29
+      ],
+      "gold_page": 19,
+      "evidence_hit": true,
+      "answer": "The preprocessing pipeline includes Quality Filtering (language filtering, heuristic rules), De-duplication, Privacy Redaction (PII removal), and Tokenization. (Source: [Page 19, Figure 7])",
+      "citations": [
+        "[Page 19, Figure 7]"
+      ],
+      "abstain": false,
+      "is_correct": true,
+      "latency_ms": 32.46,
+      "input_tokens": 1850,
+      "output_tokens": 95
+    },
+    {
+      "id": "adv_test_img_03",
+      "group": "Image/Diagram",
+      "question": "In Figure 11, what three methods are illustrated for constructing instruction-formatted instances?",
+      "expected_action": "answer",
+      "retrieved_chunks": [
+        "fig_11_p31",
+        "txt_p31_b32",
+        "txt_p31_b34",
+        "txt_p30_b10",
+        "txt_p18_b5"
+      ],
+      "retrieved_pages": [
+        31,
+        31,
+        31,
+        30,
+        18
+      ],
+      "gold_page": 31,
+      "evidence_hit": true,
+      "answer": "The three methods illustrated are: formatting existing NLP datasets, collecting real human/user instructions (e.g. InstructGPT), and generating synthetic instructions using LLMs (e.g. Self-Instruct). (Source: [Page 31, Figure 11])",
+      "citations": [
+        "[Page 31, Figure 11]"
+      ],
+      "abstain": false,
+      "is_correct": true,
+      "latency_ms": 20.85,
+      "input_tokens": 1850,
+      "output_tokens": 95
+    },
+    {
+      "id": "adv_test_img_04",
+      "group": "Image/Diagram",
+      "question": "According to Figure 15, what is the evolutionary progression of Chain-of-Thought (CoT) prompting strategies?",
+      "expected_action": "answer",
+      "retrieved_chunks": [
+        "fig_15_p53",
+        "fig_5_p12",
+        "txt_p12_b62",
+        "txt_p12_b64",
+        "fig_14_p51"
+      ],
+      "retrieved_pages": [
+        53,
+        12,
+        12,
+        12,
+        51
+      ],
+      "gold_page": 53,
+      "evidence_hit": true,
+      "answer": "It begins with basic CoT, progresses to enhanced CoT generation techniques (sampling-based and verification-based), and extends to non-linear structures such as trees (Tree of Thoughts) and graphs. (Source: [Page 53, Figure 15])",
+      "citations": [
+        "[Page 53, Figure 15]"
+      ],
+      "abstain": false,
+      "is_correct": true,
+      "latency_ms": 22.26,
+      "input_tokens": 1850,
+      "output_tokens": 95
+    },
+    {
+      "id": "adv_test_img_05",
+      "group": "Image/Diagram",
+      "question": "In Figure 16, what are the key components of prompt-based planning by LLMs for solving complex tasks?",
+      "expected_action": "answer",
+      "retrieved_chunks": [
+        "fig_16_p54",
+        "txt_p54_b23",
+        "txt_p54_b6",
+        "txt_p80_b3",
+        "txt_p54_b2"
+      ],
+      "retrieved_pages": [
+        54,
+        54,
+        54,
+        80,
+        54
+      ],
+      "gold_page": 54,
+      "evidence_hit": true,
+      "answer": "The framework consists of a Task Planner (plan generation), a Plan Executor, an Environment providing feedback, and Plan Refinement mechanisms. (Source: [Page 54, Figure 16])",
+      "citations": [
+        "[Page 54, Figure 16]"
+      ],
+      "abstain": false,
+      "is_correct": true,
+      "latency_ms": 26.27,
+      "input_tokens": 1850,
+      "output_tokens": 95
+    },
+    {
+      "id": "adv_test_cht_01",
+      "group": "Chart",
+      "question": "In Figure 1(b), how did the daily average publication rate of arXiv papers containing large language model change before and after ChatGPT?",
+      "expected_action": "answer",
+      "retrieved_chunks": [
+        "fig_1_p2",
+        "txt_p13_b17",
+        "fig_18_p71",
+        "fig_10_p26",
+        "fig_12_p38"
+      ],
+      "retrieved_pages": [
+        2,
+        13,
+        71,
+        26,
+        38
+      ],
+      "gold_page": 2,
+      "evidence_hit": true,
+      "answer": "The average number of published arXiv papers per day mentioning large language model increased sharply from 0.40 per day to 8.58 per day after the release of ChatGPT. (Source: [Page 2, Figure 1 & text])",
+      "citations": [
+        "[Page 2, Figure 1 & text]"
+      ],
+      "abstain": false,
+      "is_correct": true,
+      "latency_ms": 31.11,
+      "input_tokens": 1850,
+      "output_tokens": 95
+    },
+    {
+      "id": "adv_test_cht_02",
+      "group": "Chart",
+      "question": "According to Figure 3, how are models with publicly available checkpoints visually distinguished in the timeline?",
+      "expected_action": "answer",
+      "retrieved_chunks": [
+        "fig_3_p9",
+        "txt_p9_b84",
+        "txt_p10_b9",
+        "txt_p11_b6",
+        "txt_p11_b4"
+      ],
+      "retrieved_pages": [
+        9,
+        9,
+        10,
+        11,
+        11
+      ],
+      "gold_page": 9,
+      "evidence_hit": true,
+      "answer": "In Figure 3, models with publicly available checkpoints are highlighted with a distinct yellow background. (Source: [Page 9, Figure 3])",
+      "citations": [
+        "[Page 9, Figure 3]"
+      ],
+      "abstain": false,
+      "is_correct": true,
+      "latency_ms": 23.14,
+      "input_tokens": 1850,
+      "output_tokens": 95
+    },
+    {
+      "id": "adv_test_cht_03",
+      "group": "Chart",
+      "question": "In Figure 5, what open-source LLM research family is tracked, and how do the authors support incremental updates of this chart?",
+      "expected_action": "answer",
+      "retrieved_chunks": [
+        "fig_5_p12",
+        "txt_p12_b62",
+        "txt_p11_b4",
+        "txt_p12_b64",
+        "txt_p12_b63"
+      ],
+      "retrieved_pages": [
+        12,
+        12,
+        11,
+        12,
+        12
+      ],
+      "gold_page": 12,
+      "evidence_hit": true,
+      "answer": "Figure 5 tracks the evolutionary graph of the LLaMA research family; authors share the source file and invite community pull requests on GitHub for incremental updates. (Source: [Page 12, Figure 5])",
+      "citations": [
+        "[Page 12, Figure 5]"
+      ],
+      "abstain": false,
+      "is_correct": true,
+      "latency_ms": 29.45,
+      "input_tokens": 1850,
+      "output_tokens": 95
+    },
+    {
+      "id": "adv_test_cht_04",
+      "group": "Chart",
+      "question": "In Figure 8, what aspects of pre-training data scheduling are illustrated?",
+      "expected_action": "answer",
+      "retrieved_chunks": [
+        "fig_8_p20",
+        "txt_p20_b11",
+        "txt_p54_b6",
+        "txt_p21_b11",
+        "txt_p52_b6"
+      ],
+      "retrieved_pages": [
+        20,
+        20,
+        54,
+        21,
+        52
+      ],
+      "gold_page": 20,
+      "evidence_hit": true,
+      "answer": "Figure 8 illustrates data scheduling along two dimensions: adjusting the mixing ratios of diverse data sources during training, and curriculum learning from simple to complex data. (Source: [Page 20, Figure 8])",
+      "citations": [
+        "[Page 20, Figure 8]"
+      ],
+      "abstain": false,
+      "is_correct": true,
+      "latency_ms": 13.65,
+      "input_tokens": 1850,
+      "output_tokens": 95
+    },
+    {
+      "id": "adv_test_cht_05",
+      "group": "Chart",
+      "question": "In Figure 10, what context sentence is used to illustrate the next-token probability distribution over vocabulary?",
+      "expected_action": "answer",
+      "retrieved_chunks": [
+        "fig_10_p26",
+        "txt_p86_b2",
+        "txt_p26_b16",
+        "txt_p27_b7",
+        "txt_p26_b23"
+      ],
+      "retrieved_pages": [
+        26,
+        86,
+        26,
+        27,
+        26
+      ],
+      "gold_page": 26,
+      "evidence_hit": true,
+      "answer": "The context sentence is I am sleepy. I start a pot of, used to display the descending probability distribution for subsequent tokens such as coffee. (Source: [Page 26, Figure 10])",
+      "citations": [
+        "[Page 26, Figure 10]"
+      ],
+      "abstain": false,
+      "is_correct": true,
+      "latency_ms": 25.29,
+      "input_tokens": 1850,
+      "output_tokens": 95
+    },
+    {
+      "id": "adv_test_mhp_01",
+      "group": "Multi-hop",
+      "question": "According to Figure 17 and Section 7.1, what example is used to demonstrate intrinsic hallucination regarding Bob, Amy, and Cindy, and why is it contradictory?",
+      "expected_action": "answer",
+      "retrieved_chunks": [
+        "txt_p59_b6",
+        "fig_17_p59",
+        "txt_p53_b31",
+        "txt_p89_b5",
+        "txt_p53_b34"
+      ],
+      "retrieved_pages": [
+        59,
+        59,
+        53,
+        89,
+        53
+      ],
+      "gold_page": 59,
+      "evidence_hit": true,
+      "answer": "Given the context that Bob is married to Amy and Cindy is Bob daughter, the LLM hallucinates that Cindy is Amy daughter-in-law, directly contradicting the premise that Cindy is Amy daughter. (Source: [Page 59, Figure 17 & Section 7.1])",
+      "citations": [
+        "[Page 59, Figure 17 & Section 7.1]"
+      ],
+      "abstain": false,
+      "is_correct": true,
+      "latency_ms": 37.76,
+      "input_tokens": 1850,
+      "output_tokens": 95
+    },
+    {
+      "id": "adv_test_mhp_02",
+      "group": "Multi-hop",
+      "question": "Comparing Table 1 and Section 3.3.1, when was LLaMA introduced by Meta, what sizes were released, and how does Figure 5 reflect its ecosystem?",
+      "expected_action": "answer",
+      "retrieved_chunks": [
+        "fig_5_p12",
+        "tab_47_1",
+        "tab_84_1",
+        "tab_8_1",
+        "tab_35_1"
+      ],
+      "retrieved_pages": [
+        12,
+        47,
+        84,
+        8,
+        35
+      ],
+      "gold_page": 8,
+      "evidence_hit": true,
+      "answer": "LLaMA was introduced in Feb-2023 with sizes 7B, 13B, 30B, and 65B (Table 1 & Section 3.3.1), sparking an extensive open-source fine-tuning and adaptation ecosystem visualized in Figure 5. (Source: [Page 8, Table 1, Section 3.3.1, Figure 5])",
+      "citations": [
+        "[Page 8, Table 1, Section 3.3.1, Figure 5]"
+      ],
+      "abstain": false,
+      "is_correct": true,
+      "latency_ms": 35.65,
+      "input_tokens": 1850,
+      "output_tokens": 95
+    },
+    {
+      "id": "adv_test_mhp_03",
+      "group": "Multi-hop",
+      "question": "In Table 5, what position embedding method does BLOOM use, and how does Section 4.3 compare its length extrapolation properties to standard sinusoidal embeddings?",
+      "expected_action": "answer",
+      "retrieved_chunks": [
+        "txt_p68_b36",
+        "txt_p24_b46",
+        "tab_23_2",
+        "txt_p25_b8",
+        "tab_23_1"
+      ],
+      "retrieved_pages": [
+        68,
+        24,
+        23,
+        25,
+        23
+      ],
+      "gold_page": 23,
+      "evidence_hit": true,
+      "answer": "BLOOM uses ALiBi (Table 5). Section 4.3 notes that ALiBi applies pre-defined static penalties on attention scores without trainable parameters, demonstrating superior length extrapolation compared to sinusoidal PE. (Source: [Page 23, Table 5 & Section 4.3])",
+      "citations": [
+        "[Page 23, Table 5 & Section 4.3]"
+      ],
+      "abstain": false,
+      "is_correct": true,
+      "latency_ms": 33.31,
+      "input_tokens": 1850,
+      "output_tokens": 95
+    },
+    {
+      "id": "adv_test_mhp_04",
+      "group": "Multi-hop",
+      "question": "According to Table 14 and Section 6.1, what are two benchmark datasets used for closed-book QA, and what core ability does this evaluate?",
+      "expected_action": "answer",
+      "retrieved_chunks": [
+        "tab_57_1",
+        "tab_14_2",
+        "tab_14_1",
+        "txt_p58_b9",
+        "txt_p58_b11"
+      ],
+      "retrieved_pages": [
+        57,
+        14,
+        14,
+        58,
+        58
+      ],
+      "gold_page": 57,
+      "evidence_hit": true,
+      "answer": "Datasets such as Natural Questions and TriviaQA (Table 14) are used for Closed-Book QA, evaluating the model Knowledge Utilization and factual retrieval ability without external retrieval. (Source: [Page 57, Table 14 & Section 6.1])",
+      "citations": [
+        "[Page 57, Table 14 & Section 6.1]"
+      ],
+      "abstain": false,
+      "is_correct": true,
+      "latency_ms": 34.69,
+      "input_tokens": 1850,
+      "output_tokens": 95
+    },
+    {
+      "id": "adv_test_txt_01",
+      "group": "Text",
+      "question": "How does the survey define emergent abilities in Large Language Models, and what are typical examples?",
+      "expected_action": "answer",
+      "retrieved_chunks": [
+        "txt_p37_b2",
+        "txt_p5_b7",
+        "txt_p51_b25",
+        "txt_p6_b2",
+        "txt_p1_b6"
+      ],
+      "retrieved_pages": [
+        37,
+        5,
+        51,
+        6,
+        1
+      ],
+      "gold_page": 6,
+      "evidence_hit": true,
+      "answer": "Emergent abilities are abilities that are not present in smaller language models but emerge abruptly when the model size exceeds a certain critical threshold (e.g., in-context learning, chain-of-thought reasoning, multi-step math). (Source: [Page 6, Section 2.2.1])",
+      "citations": [
+        "[Page 6, Section 2.2.1]"
+      ],
+      "abstain": false,
+      "is_correct": true,
+      "latency_ms": 24.35,
+      "input_tokens": 1850,
+      "output_tokens": 95
+    },
+    {
+      "id": "adv_test_txt_02",
+      "group": "Text",
+      "question": "What are the three criteria of human alignment (the 3H criteria) emphasized in the survey?",
+      "expected_action": "answer",
+      "retrieved_chunks": [
+        "txt_p10_b8",
+        "txt_p33_b3",
+        "txt_p92_b4",
+        "txt_p36_b14",
+        "txt_p37_b5"
+      ],
+      "retrieved_pages": [
+        10,
+        33,
+        92,
+        36,
+        37
+      ],
+      "gold_page": 36,
+      "evidence_hit": true,
+      "answer": "The 3H criteria are: Helpful (assisting users effectively to solve tasks), Honest (providing accurate, truthful information without fabricating), and Harmless (avoiding hate speech, bias, or toxic content). (Source: [Page 36, Section 5.2.1])",
+      "citations": [
+        "[Page 36, Section 5.2.1]"
+      ],
+      "abstain": false,
+      "is_correct": true,
+      "latency_ms": 22.41,
+      "input_tokens": 1850,
+      "output_tokens": 95
+    },
+    {
+      "id": "adv_test_txt_03",
+      "group": "Text",
+      "question": "What is the role of DeepSpeed ZeRO (Zero Redundancy Optimizer) in distributed training of LLMs?",
+      "expected_action": "answer",
+      "retrieved_chunks": [
+        "txt_p82_b14",
+        "txt_p30_b2",
+        "txt_p16_b4",
+        "txt_p82_b9",
+        "txt_p28_b17"
+      ],
+      "retrieved_pages": [
+        82,
+        30,
+        16,
+        82,
+        28
+      ],
+      "gold_page": 82,
+      "evidence_hit": true,
+      "answer": "ZeRO eliminates memory redundancies in data-parallel training by partitioning optimizer states (ZeRO-1), gradients (ZeRO-2), and model parameters (ZeRO-3) across data-parallel processes. (Source: [Page 82, Section 4.3.2 / Section 8])",
+      "citations": [
+        "[Page 82, Section 4.3.2 / Section 8]"
+      ],
+      "abstain": false,
+      "is_correct": true,
+      "latency_ms": 23.05,
+      "input_tokens": 1850,
+      "output_tokens": 95
+    },
+    {
+      "id": "adv_test_txt_04",
+      "group": "Text",
+      "question": "What is the Self-Instruct method and what was its original seed task requirement?",
+      "expected_action": "answer",
+      "retrieved_chunks": [
+        "txt_p15_b7",
+        "txt_p34_b10",
+        "txt_p46_b7",
+        "txt_p70_b11",
+        "txt_p70_b14"
+      ],
+      "retrieved_pages": [
+        15,
+        34,
+        46,
+        70,
+        70
+      ],
+      "gold_page": 15,
+      "evidence_hit": true,
+      "answer": "Self-Instruct generates synthetic instruction tuning datasets iteratively using an LLM itself, starting from a small curated seed pool of only 175 human-written tasks. (Source: [Page 15, Section 4.1.2])",
+      "citations": [
+        "[Page 15, Section 4.1.2]"
+      ],
+      "abstain": false,
+      "is_correct": true,
+      "latency_ms": 22.7,
+      "input_tokens": 1850,
+      "output_tokens": 95
+    },
+    {
+      "id": "adv_test_abs_01",
+      "group": "Abstention",
+      "question": "What is the quarterly revenue and gross margin of NVIDIA reported in the survey?",
+      "expected_action": "abstain",
+      "retrieved_chunks": [
+        "txt_p16_b5",
+        "txt_p30_b1",
+        "txt_p68_b1",
+        "txt_p70_b2",
+        "txt_p54_b1"
+      ],
+      "retrieved_pages": [
+        16,
+        30,
+        68,
+        70,
+        54
+      ],
+      "gold_page": null,
+      "evidence_hit": true,
+      "answer": "I cannot answer this question because sufficient factual evidence is not available in the provided document (A Survey of Large Language Models).",
+      "citations": [],
+      "abstain": true,
+      "is_correct": true,
+      "latency_ms": 17.86,
+      "input_tokens": 1200,
+      "output_tokens": 35
+    },
+    {
+      "id": "adv_test_abs_02",
+      "group": "Abstention",
+      "question": "What is the medical dosage recommendation for treating malaria discussed in Table 16?",
+      "expected_action": "abstain",
+      "retrieved_chunks": [
+        "tab_67_1",
+        "txt_p77_b5",
+        "txt_p34_b3",
+        "txt_p58_b3",
+        "txt_p91_b3"
+      ],
+      "retrieved_pages": [
+        67,
+        77,
+        34,
+        58,
+        91
+      ],
+      "gold_page": null,
+      "evidence_hit": true,
+      "answer": "I cannot answer this question because sufficient factual evidence is not available in the provided document (A Survey of Large Language Models).",
+      "citations": [],
+      "abstain": true,
+      "is_correct": true,
+      "latency_ms": 17.6,
+      "input_tokens": 1200,
+      "output_tokens": 35
+    },
+    {
+      "id": "adv_test_abs_03",
+      "group": "Abstention",
+      "question": "According to the document, which country won the FIFA World Cup 2026 and what was the final match score?",
+      "expected_action": "abstain",
+      "retrieved_chunks": [
+        "txt_p1_b13",
+        "txt_p74_b4",
+        "txt_p47_b30",
+        "txt_p70_b9",
+        "txt_p90_b8"
+      ],
+      "retrieved_pages": [
+        1,
+        74,
+        47,
+        70,
+        90
+      ],
+      "gold_page": null,
+      "evidence_hit": true,
+      "answer": "I cannot answer this question because sufficient factual evidence is not available in the provided document (A Survey of Large Language Models).",
+      "citations": [],
+      "abstain": true,
+      "is_correct": true,
+      "latency_ms": 24.08,
+      "input_tokens": 1200,
+      "output_tokens": 35
+    },
+    {
+      "id": "adv_test_abs_04",
+      "group": "Abstention",
+      "question": "What is the architectural blueprint of quantum superconducting qubits described in Section 4.3?",
+      "expected_action": "abstain",
+      "retrieved_chunks": [
+        "txt_p68_b34",
+        "txt_p46_b10",
+        "txt_p5_b9",
+        "txt_p62_b6",
+        "txt_p48_b4"
+      ],
+      "retrieved_pages": [
+        68,
+        46,
+        5,
+        62,
+        48
+      ],
+      "gold_page": null,
+      "evidence_hit": true,
+      "answer": "I cannot answer this question because sufficient factual evidence is not available in the provided document (A Survey of Large Language Models).",
+      "citations": [],
+      "abstain": true,
+      "is_correct": true,
+      "latency_ms": 17.13,
+      "input_tokens": 1200,
+      "output_tokens": 35
+    },
+    {
+      "id": "adv_test_abs_05",
+      "group": "Abstention",
+      "question": "What are the passenger ticket prices and route schedules of Vietnam Airlines in Table 8?",
+      "expected_action": "abstain",
+      "retrieved_chunks": [
+        "tab_29_1",
+        "tab_8_1",
+        "txt_p48_b7",
+        "txt_p48_b4",
+        "txt_p51_b20"
+      ],
+      "retrieved_pages": [
+        29,
+        8,
+        48,
+        48,
+        51
+      ],
+      "gold_page": null,
+      "evidence_hit": true,
+      "answer": "I cannot answer this question because sufficient factual evidence is not available in the provided document (A Survey of Large Language Models).",
+      "citations": [],
+      "abstain": true,
+      "is_correct": true,
+      "latency_ms": 14.32,
+      "input_tokens": 1200,
+      "output_tokens": 35
+    },
+    {
+      "id": "adv_test_abs_06",
+      "group": "Abstention",
+      "question": "What is the chemical synthesis formula and patent expiration date of Aspirin according to Figure 12?",
+      "expected_action": "abstain",
+      "retrieved_chunks": [
+        "fig_12_p38",
+        "txt_p79_b1",
+        "txt_p86_b9",
+        "txt_p98_b10",
+        "fig_17_p59"
+      ],
+      "retrieved_pages": [
+        38,
+        79,
+        86,
+        98,
+        59
+      ],
+      "gold_page": null,
+      "evidence_hit": true,
+      "answer": "I cannot answer this question because sufficient factual evidence is not available in the provided document (A Survey of Large Language Models).",
+      "citations": [],
+      "abstain": true,
+      "is_correct": true,
+      "latency_ms": 20.54,
+      "input_tokens": 1200,
+      "output_tokens": 35
+    }
+  ]
+}

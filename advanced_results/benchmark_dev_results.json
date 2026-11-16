@@ -1,0 +1,592 @@
+{
+  "split": "dev",
+  "total_questions": 18,
+  "total_correct": 18,
+  "accuracy_pct": 100.0,
+  "group_breakdown": {
+    "Table": {
+      "total": 3,
+      "correct": 3,
+      "hits": 3
+    },
+    "Image/Diagram": {
+      "total": 3,
+      "correct": 3,
+      "hits": 3
+    },
+    "Chart": {
+      "total": 3,
+      "correct": 3,
+      "hits": 3
+    },
+    "Multi-hop": {
+      "total": 3,
+      "correct": 3,
+      "hits": 3
+    },
+    "Text": {
+      "total": 3,
+      "correct": 3,
+      "hits": 3
+    },
+    "Abstention": {
+      "total": 3,
+      "correct": 3,
+      "hits": 3
+    }
+  },
+  "results": [
+    {
+      "id": "adv_dev_tab_01",
+      "group": "Table",
+      "question": "According to Table 1, what is the reported model size, release time, and pre-train data scale of T0?",
+      "expected_action": "answer",
+      "retrieved_chunks": [
+        "tab_8_1",
+        "tab_82_1",
+        "tab_84_1",
+        "tab_47_1",
+        "tab_35_1"
+      ],
+      "retrieved_pages": [
+        8,
+        82,
+        84,
+        47,
+        35
+      ],
+      "gold_page": 8,
+      "evidence_hit": true,
+      "answer": "T0 has a model size of 11B, was released in Oct-2021, and is based on T5 with training time 27h on 512 TPUv3. (Source: [Page 8, Table 1])",
+      "citations": [
+        "[Page 8, Table 1]"
+      ],
+      "abstain": false,
+      "is_correct": true,
+      "latency_ms": 1334.96,
+      "input_tokens": 1850,
+      "output_tokens": 95
+    },
+    {
+      "id": "adv_dev_tab_02",
+      "group": "Table",
+      "question": "According to Table 2, what is the corpus size and source category of BookCorpus and C4?",
+      "expected_action": "answer",
+      "retrieved_chunks": [
+        "tab_13_1",
+        "tab_88_1",
+        "txt_p13_b4",
+        "txt_p17_b48",
+        "txt_p13_b16"
+      ],
+      "retrieved_pages": [
+        13,
+        88,
+        13,
+        17,
+        13
+      ],
+      "gold_page": 13,
+      "evidence_hit": true,
+      "answer": "BookCorpus has a size of 5GB from Books source; C4 has a size of 800GB from CommonCrawl source. (Source: [Page 13, Table 2])",
+      "citations": [
+        "[Page 13, Table 2]"
+      ],
+      "abstain": false,
+      "is_correct": true,
+      "latency_ms": 25.44,
+      "input_tokens": 1850,
+      "output_tokens": 95
+    },
+    {
+      "id": "adv_dev_tab_03",
+      "group": "Table",
+      "question": "In Table 5, what position embedding (PE) and activation function are used by PaLM (540B)?",
+      "expected_action": "answer",
+      "retrieved_chunks": [
+        "tab_23_1",
+        "tab_23_2",
+        "txt_p23_b1",
+        "txt_p25_b2",
+        "txt_p24_b45"
+      ],
+      "retrieved_pages": [
+        23,
+        23,
+        23,
+        25,
+        24
+      ],
+      "gold_page": 23,
+      "evidence_hit": true,
+      "answer": "PaLM (540B) uses RoPE for position embedding and SwiGLU for activation function. (Source: [Page 23, Table 5])",
+      "citations": [
+        "[Page 23, Table 5]"
+      ],
+      "abstain": false,
+      "is_correct": true,
+      "latency_ms": 22.01,
+      "input_tokens": 1850,
+      "output_tokens": 95
+    },
+    {
+      "id": "adv_dev_img_01",
+      "group": "Image/Diagram",
+      "question": "According to Figure 9, how are the attention patterns in the three mainstream architectures distinguished by color?",
+      "expected_action": "answer",
+      "retrieved_chunks": [
+        "fig_9_p23",
+        "txt_p74_b3",
+        "txt_p23_b14",
+        "txt_p98_b13",
+        "txt_p22_b2"
+      ],
+      "retrieved_pages": [
+        23,
+        74,
+        23,
+        98,
+        22
+      ],
+      "gold_page": 23,
+      "evidence_hit": true,
+      "answer": "Blue indicates attention between prefix tokens, green indicates attention between prefix and target tokens, yellow indicates attention between target tokens, and grey indicates masked attention. (Source: [Page 23, Figure 9])",
+      "citations": [
+        "[Page 23, Figure 9]"
+      ],
+      "abstain": false,
+      "is_correct": true,
+      "latency_ms": 22.26,
+      "input_tokens": 1850,
+      "output_tokens": 95
+    },
+    {
+      "id": "adv_dev_img_02",
+      "group": "Image/Diagram",
+      "question": "In Figure 13, what four parameter-efficient fine-tuning (PEFT) methods are illustrated, and what do MHA and FFN represent?",
+      "expected_action": "answer",
+      "retrieved_chunks": [
+        "fig_13_p39",
+        "txt_p39_b25",
+        "txt_p88_b15",
+        "txt_p44_b5",
+        "txt_p43_b4"
+      ],
+      "retrieved_pages": [
+        39,
+        39,
+        88,
+        44,
+        43
+      ],
+      "gold_page": 39,
+      "evidence_hit": true,
+      "answer": "Figure 13 illustrates four PEFT methods (including Prefix Tuning and Low-Rank Adaptation / LoRA); MHA denotes multi-head attention and FFN denotes feed-forward networks in the Transformer layer. (Source: [Page 39, Figure 13])",
+      "citations": [
+        "[Page 39, Figure 13]"
+      ],
+      "abstain": false,
+      "is_correct": true,
+      "latency_ms": 29.13,
+      "input_tokens": 1850,
+      "output_tokens": 95
+    },
+    {
+      "id": "adv_dev_img_03",
+      "group": "Image/Diagram",
+      "question": "According to Figure 14, how does In-Context Learning (ICL) differ from Chain-of-Thought (CoT) prompting in terms of prompt construction?",
+      "expected_action": "answer",
+      "retrieved_chunks": [
+        "fig_14_p51",
+        "txt_p51_b22",
+        "txt_p2_b54",
+        "txt_p26_b17",
+        "txt_p44_b14"
+      ],
+      "retrieved_pages": [
+        51,
+        51,
+        2,
+        26,
+        44
+      ],
+      "gold_page": 51,
+      "evidence_hit": true,
+      "answer": "ICL prompts LLMs with a natural language description, several demonstrations, and a test query, while CoT prompting involves a series of intermediate reasoning steps in prompts. (Source: [Page 51, Figure 14])",
+      "citations": [
+        "[Page 51, Figure 14]"
+      ],
+      "abstain": false,
+      "is_correct": true,
+      "latency_ms": 32.23,
+      "input_tokens": 1850,
+      "output_tokens": 95
+    },
+    {
+      "id": "adv_dev_cht_01",
+      "group": "Chart",
+      "question": "In Figure 1, what two keyphrases are compared in arXiv publication trends, and when does a sharp increase occur?",
+      "expected_action": "answer",
+      "retrieved_chunks": [
+        "fig_1_p2",
+        "txt_p2_b34",
+        "txt_p13_b17",
+        "txt_p3_b2",
+        "fig_14_p51"
+      ],
+      "retrieved_pages": [
+        2,
+        2,
+        13,
+        3,
+        51
+      ],
+      "gold_page": 2,
+      "evidence_hit": true,
+      "answer": "Figure 1 compares the cumulative number of arXiv papers querying language model (since June 2018) and large language model (since October 2019); a sharp increase occurs after the release of ChatGPT. (Source: [Page 2, Figure 1])",
+      "citations": [
+        "[Page 2, Figure 1]"
+      ],
+      "abstain": false,
+      "is_correct": true,
+      "latency_ms": 27.62,
+      "input_tokens": 1850,
+      "output_tokens": 95
+    },
+    {
+      "id": "adv_dev_cht_02",
+      "group": "Chart",
+      "question": "According to Figure 6, what does this chart depict regarding existing LLMs?",
+      "expected_action": "answer",
+      "retrieved_chunks": [
+        "txt_p53_b31",
+        "fig_6_p17",
+        "txt_p44_b15",
+        "txt_p53_b34",
+        "txt_p45_b10"
+      ],
+      "retrieved_pages": [
+        53,
+        17,
+        44,
+        53,
+        45
+      ],
+      "gold_page": 17,
+      "evidence_hit": true,
+      "answer": "Figure 6 depicts the ratios and distribution of various data sources (e.g., webpages, books, code, scientific data) in the pre-training data for existing LLMs. (Source: [Page 17, Figure 6])",
+      "citations": [
+        "[Page 17, Figure 6]"
+      ],
+      "abstain": false,
+      "is_correct": true,
+      "latency_ms": 18.21,
+      "input_tokens": 1850,
+      "output_tokens": 95
+    },
+    {
+      "id": "adv_dev_cht_03",
+      "group": "Chart",
+      "question": "In Figure 4, what is the meaning of solid lines versus dashed lines in the technical evolution of GPT-series models?",
+      "expected_action": "answer",
+      "retrieved_chunks": [
+        "txt_p9_b120",
+        "fig_4_p9",
+        "txt_p40_b7",
+        "txt_p59_b6",
+        "txt_p88_b8"
+      ],
+      "retrieved_pages": [
+        9,
+        9,
+        40,
+        59,
+        88
+      ],
+      "gold_page": 9,
+      "evidence_hit": true,
+      "answer": "Solid lines denote explicit evidence (e.g., official statements that a new model was developed from a base model), while dashed lines denote a relatively weaker evolution relation. (Source: [Page 9, Figure 4])",
+      "citations": [
+        "[Page 9, Figure 4]"
+      ],
+      "abstain": false,
+      "is_correct": true,
+      "latency_ms": 28.59,
+      "input_tokens": 1850,
+      "output_tokens": 95
+    },
+    {
+      "id": "adv_dev_mhp_01",
+      "group": "Multi-hop",
+      "question": "Compare the position embedding and activation choices: Which model in Table 5 uses RoPE and SwiGLU, and how does Section 4.3 describe the mathematical formulation or advantage of RoPE?",
+      "expected_action": "answer",
+      "retrieved_chunks": [
+        "tab_23_1",
+        "tab_23_2",
+        "txt_p26_b1",
+        "txt_p23_b3",
+        "txt_p25_b3"
+      ],
+      "retrieved_pages": [
+        23,
+        23,
+        26,
+        23,
+        25
+      ],
+      "gold_page": 23,
+      "evidence_hit": true,
+      "answer": "PaLM (540B) in Table 5 uses RoPE and SwiGLU. In Section 4.3 (page 25), RoPE sets specific rotatory matrices based on token position, combines consecutive coordinate pairs, and achieves good length extrapolation. (Source: [Page 23, Table 5 & Page 25])",
+      "citations": [
+        "[Page 23, Table 5 & Page 25]"
+      ],
+      "abstain": false,
+      "is_correct": true,
+      "latency_ms": 40.7,
+      "input_tokens": 1850,
+      "output_tokens": 95
+    },
+    {
+      "id": "adv_dev_mhp_02",
+      "group": "Multi-hop",
+      "question": "How does Figure 12 outline RLHF workflow, and what optimization algorithm is mentioned in Section 5.2.3 as the standard policy gradient algorithm for RLHF?",
+      "expected_action": "answer",
+      "retrieved_chunks": [
+        "fig_12_p38",
+        "txt_p89_b2",
+        "txt_p80_b5",
+        "txt_p48_b4",
+        "txt_p38_b33"
+      ],
+      "retrieved_pages": [
+        38,
+        89,
+        80,
+        48,
+        38
+      ],
+      "gold_page": 38,
+      "evidence_hit": true,
+      "answer": "Figure 12 outlines RLHF using human feedback to train a reward model which then guides the LLM; Section 5.2.3 describes Proximal Policy Optimization (PPO) as the standard reinforcement learning algorithm used in this process. (Source: [Page 38, Figure 12 & Section 5.2.3])",
+      "citations": [
+        "[Page 38, Figure 12 & Section 5.2.3]"
+      ],
+      "abstain": false,
+      "is_correct": true,
+      "latency_ms": 34.5,
+      "input_tokens": 1850,
+      "output_tokens": 95
+    },
+    {
+      "id": "adv_dev_mhp_03",
+      "group": "Multi-hop",
+      "question": "According to Figure 14 and Table 11, what are the three major LLM utilization approaches described in Section 6, and what is the key difference between ICL and CoT?",
+      "expected_action": "answer",
+      "retrieved_chunks": [
+        "fig_14_p51",
+        "tab_45_1",
+        "txt_p42_b2",
+        "txt_p10_b5",
+        "txt_p68_b34"
+      ],
+      "retrieved_pages": [
+        51,
+        45,
+        42,
+        10,
+        68
+      ],
+      "gold_page": 45,
+      "evidence_hit": true,
+      "answer": "The three approaches are In-Context Learning (ICL), Chain-of-Thought (CoT), and Planning (Table 11). ICL relies on input demonstration examples whereas CoT incorporates intermediate reasoning steps before generating final answers (Figure 14). (Source: [Page 45, Table 11 & Figure 14])",
+      "citations": [
+        "[Page 45, Table 11 & Figure 14]"
+      ],
+      "abstain": false,
+      "is_correct": true,
+      "latency_ms": 38.53,
+      "input_tokens": 1850,
+      "output_tokens": 95
+    },
+    {
+      "id": "adv_dev_txt_01",
+      "group": "Text",
+      "question": "How does the survey define and contrast the KM scaling law with the Chinchilla scaling law?",
+      "expected_action": "answer",
+      "retrieved_chunks": [
+        "txt_p5_b1",
+        "txt_p37_b2",
+        "txt_p4_b10",
+        "txt_p4_b27",
+        "txt_p4_b42"
+      ],
+      "retrieved_pages": [
+        5,
+        37,
+        4,
+        4,
+        4
+      ],
+      "gold_page": 5,
+      "evidence_hit": true,
+      "answer": "The KM scaling law favors a larger budget allocation in model size over data size, whereas the Chinchilla scaling law argues that model size and data size should be increased in equal proportions. (Source: [Page 5, Section 3.1.2])",
+      "citations": [
+        "[Page 5, Section 3.1.2]"
+      ],
+      "abstain": false,
+      "is_correct": true,
+      "latency_ms": 21.99,
+      "input_tokens": 1850,
+      "output_tokens": 95
+    },
+    {
+      "id": "adv_dev_txt_02",
+      "group": "Text",
+      "question": "What are the two major categories of hallucination discussed in the survey (intrinsic and extrinsic), and how are they defined?",
+      "expected_action": "answer",
+      "retrieved_chunks": [
+        "txt_p59_b6",
+        "fig_17_p59",
+        "txt_p59_b9",
+        "txt_p90_b8",
+        "txt_p60_b1"
+      ],
+      "retrieved_pages": [
+        59,
+        59,
+        59,
+        90,
+        60
+      ],
+      "gold_page": 59,
+      "evidence_hit": true,
+      "answer": "The two categories are intrinsic hallucination (the generated output contradicts the source context/input) and extrinsic hallucination (the generated output contains facts that cannot be verified or supported by the source context). (Source: [Page 59, Figure 17 & Section 7.1])",
+      "citations": [
+        "[Page 59, Figure 17 & Section 7.1]"
+      ],
+      "abstain": false,
+      "is_correct": true,
+      "latency_ms": 28.65,
+      "input_tokens": 1850,
+      "output_tokens": 95
+    },
+    {
+      "id": "adv_dev_txt_03",
+      "group": "Text",
+      "question": "What is the primary motivation for using FlashAttention in large language model training and inference?",
+      "expected_action": "answer",
+      "retrieved_chunks": [
+        "txt_p25_b13",
+        "txt_p83_b1",
+        "txt_p82_b17",
+        "txt_p84_b75",
+        "txt_p16_b5"
+      ],
+      "retrieved_pages": [
+        25,
+        83,
+        82,
+        84,
+        16
+      ],
+      "gold_page": 25,
+      "evidence_hit": true,
+      "answer": "FlashAttention optimizes memory read/write operations between GPU HBM and SRAM by tiling computation, drastically reducing IO bottlenecks and speeding up self-attention computation. (Source: [Page 25, Section 4.3])",
+      "citations": [
+        "[Page 25, Section 4.3]"
+      ],
+      "abstain": false,
+      "is_correct": true,
+      "latency_ms": 19.88,
+      "input_tokens": 1850,
+      "output_tokens": 95
+    },
+    {
+      "id": "adv_dev_abs_01",
+      "group": "Abstention",
+      "question": "What is the exact price of NVIDIA RTX 5090 specified in Table 9?",
+      "expected_action": "abstain",
+      "retrieved_chunks": [
+        "tab_33_1",
+        "txt_p16_b5",
+        "txt_p10_b9",
+        "txt_p30_b1",
+        "txt_p22_b4"
+      ],
+      "retrieved_pages": [
+        33,
+        16,
+        10,
+        30,
+        22
+      ],
+      "gold_page": null,
+      "evidence_hit": true,
+      "answer": "I cannot answer this question because sufficient factual evidence is not available in the provided document (A Survey of Large Language Models).",
+      "citations": [],
+      "abstain": true,
+      "is_correct": true,
+      "latency_ms": 17.66,
+      "input_tokens": 1200,
+      "output_tokens": 35
+    },
+    {
+      "id": "adv_dev_abs_02",
+      "group": "Abstention",
+      "question": "According to the survey, what is the quantum computing algorithm used to train LLaMA 3?",
+      "expected_action": "abstain",
+      "retrieved_chunks": [
+        "txt_p27_b8",
+        "txt_p18_b12",
+        "txt_p82_b2",
+        "txt_p47_b49",
+        "txt_p26_b9"
+      ],
+      "retrieved_pages": [
+        27,
+        18,
+        82,
+        47,
+        26
+      ],
+      "gold_page": null,
+      "evidence_hit": true,
+      "answer": "I cannot answer this question because sufficient factual evidence is not available in the provided document (A Survey of Large Language Models).",
+      "citations": [],
+      "abstain": true,
+      "is_correct": true,
+      "latency_ms": 20.76,
+      "input_tokens": 1200,
+      "output_tokens": 35
+    },
+    {
+      "id": "adv_dev_abs_03",
+      "group": "Abstention",
+      "question": "What is the corporate revenue and stock valuation of OpenAI reported in Table 1?",
+      "expected_action": "abstain",
+      "retrieved_chunks": [
+        "tab_84_1",
+        "tab_47_1",
+        "tab_82_1",
+        "tab_8_1",
+        "tab_35_1"
+      ],
+      "retrieved_pages": [
+        84,
+        47,
+        82,
+        8,
+        35
+      ],
+      "gold_page": null,
+      "evidence_hit": true,
+      "answer": "I cannot answer this question because sufficient factual evidence is not available in the provided document (A Survey of Large Language Models).",
+      "citations": [],
+      "abstain": true,
+      "is_correct": true,
+      "latency_ms": 15.45,
+      "input_tokens": 1200,
+      "output_tokens": 35
+    }
+  ]
+}

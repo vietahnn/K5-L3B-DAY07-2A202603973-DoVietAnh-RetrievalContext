@@ -1,0 +1,218 @@
+[
+  {
+    "id": "adv_dev_tab_01",
+    "group": "Table",
+    "question": "According to Table 1, what is the reported model size, release time, and pre-train data scale of T0?",
+    "ground_truth": "T0 has a model size of 11B, was released in Oct-2021, and is based on T5 with training time 27h on 512 TPUv3.",
+    "expected_action": "answer",
+    "gold_evidence": {
+      "page": 8,
+      "source": "Table 1",
+      "quote": "T0[28] | Oct-2021 | 11 | T5 | ✓ | - | - | - | 512TPUv3 | 27h"
+    }
+  },
+  {
+    "id": "adv_dev_tab_02",
+    "group": "Table",
+    "question": "According to Table 2, what is the corpus size and source category of BookCorpus and C4?",
+    "ground_truth": "BookCorpus has a size of 5GB from Books source; C4 has a size of 800GB from CommonCrawl source.",
+    "expected_action": "answer",
+    "gold_evidence": {
+      "page": 13,
+      "source": "Table 2",
+      "quote": "BookCorpus[158] ... 5GB ... Books; C4[82] ... 800GB ... CommonCrawl"
+    }
+  },
+  {
+    "id": "adv_dev_tab_03",
+    "group": "Table",
+    "question": "In Table 5, what position embedding (PE) and activation function are used by PaLM (540B)?",
+    "ground_truth": "PaLM (540B) uses RoPE for position embedding and SwiGLU for activation function.",
+    "expected_action": "answer",
+    "gold_evidence": {
+      "page": 23,
+      "source": "Table 5",
+      "quote": "PaLM[56] | Causaldecoder | 540B | PreLayerNorm | RoPE | SwiGLU"
+    }
+  },
+  {
+    "id": "adv_dev_img_01",
+    "group": "Image/Diagram",
+    "question": "According to Figure 9, how are the attention patterns in the three mainstream architectures distinguished by color?",
+    "ground_truth": "Blue indicates attention between prefix tokens, green indicates attention between prefix and target tokens, yellow indicates attention between target tokens, and grey indicates masked attention.",
+    "expected_action": "answer",
+    "gold_evidence": {
+      "page": 23,
+      "source": "Figure 9",
+      "quote": "blue, green, yellow and grey rounded rectangles indicate the attention between prefix tokens, attention between prefix and target tokens, attention between target tokens, and masked attention respectively"
+    }
+  },
+  {
+    "id": "adv_dev_img_02",
+    "group": "Image/Diagram",
+    "question": "In Figure 13, what four parameter-efficient fine-tuning (PEFT) methods are illustrated, and what do MHA and FFN represent?",
+    "ground_truth": "Figure 13 illustrates four PEFT methods (including Prefix Tuning and Low-Rank Adaptation / LoRA); MHA denotes multi-head attention and FFN denotes feed-forward networks in the Transformer layer.",
+    "expected_action": "answer",
+    "gold_evidence": {
+      "page": 39,
+      "source": "Figure 13",
+      "quote": "four different parameter-efficient fine-tuning methods. MHA and FFN denote the multi-head attention and feed-forward networks in the Transformer layer"
+    }
+  },
+  {
+    "id": "adv_dev_img_03",
+    "group": "Image/Diagram",
+    "question": "According to Figure 14, how does In-Context Learning (ICL) differ from Chain-of-Thought (CoT) prompting in terms of prompt construction?",
+    "ground_truth": "ICL prompts LLMs with a natural language description, several demonstrations, and a test query, while CoT prompting involves a series of intermediate reasoning steps in prompts.",
+    "expected_action": "answer",
+    "gold_evidence": {
+      "page": 51,
+      "source": "Figure 14",
+      "quote": "ICL prompts LLMs with a natural language description, several demonstrations, and a test query, while CoT prompting involves a series of intermediate reasoning steps in prompts"
+    }
+  },
+  {
+    "id": "adv_dev_cht_01",
+    "group": "Chart",
+    "question": "In Figure 1, what two keyphrases are compared in arXiv publication trends, and when does a sharp increase occur?",
+    "ground_truth": "Figure 1 compares the cumulative number of arXiv papers querying language model (since June 2018) and large language model (since October 2019); a sharp increase occurs after the release of ChatGPT.",
+    "expected_action": "answer",
+    "gold_evidence": {
+      "page": 2,
+      "source": "Figure 1",
+      "quote": "keyphrases language model (since June 2018) and large language model (since October 2019) ... A sharp increase occurs after the release of ChatGPT"
+    }
+  },
+  {
+    "id": "adv_dev_cht_02",
+    "group": "Chart",
+    "question": "According to Figure 6, what does this chart depict regarding existing LLMs?",
+    "ground_truth": "Figure 6 depicts the ratios and distribution of various data sources (e.g., webpages, books, code, scientific data) in the pre-training data for existing LLMs.",
+    "expected_action": "answer",
+    "gold_evidence": {
+      "page": 17,
+      "source": "Figure 6",
+      "quote": "Fig. 6: Ratios of various data sources in the pre-training data for existing LLMs"
+    }
+  },
+  {
+    "id": "adv_dev_cht_03",
+    "group": "Chart",
+    "question": "In Figure 4, what is the meaning of solid lines versus dashed lines in the technical evolution of GPT-series models?",
+    "ground_truth": "Solid lines denote explicit evidence (e.g., official statements that a new model was developed from a base model), while dashed lines denote a relatively weaker evolution relation.",
+    "expected_action": "answer",
+    "gold_evidence": {
+      "page": 9,
+      "source": "Figure 4",
+      "quote": "solid lines denote that there exists an explicit evidence ... while dashed lines denote a relatively weaker evolution relation"
+    }
+  },
+  {
+    "id": "adv_dev_mhp_01",
+    "group": "Multi-hop",
+    "question": "Compare the position embedding and activation choices: Which model in Table 5 uses RoPE and SwiGLU, and how does Section 4.3 describe the mathematical formulation or advantage of RoPE?",
+    "ground_truth": "PaLM (540B) in Table 5 uses RoPE and SwiGLU. In Section 4.3 (page 25), RoPE sets specific rotatory matrices based on token position, combines consecutive coordinate pairs, and achieves good length extrapolation.",
+    "expected_action": "answer",
+    "gold_evidence": {
+      "page": 23,
+      "source": "Table 5 & Page 25",
+      "quote": "PaLM: RoPE and SwiGLU (Table 5); Rotary position embedding (RoPE) sets specific rotatory matrices based on position (Page 25)"
+    }
+  },
+  {
+    "id": "adv_dev_mhp_02",
+    "group": "Multi-hop",
+    "question": "How does Figure 12 outline RLHF workflow, and what optimization algorithm is mentioned in Section 5.2.3 as the standard policy gradient algorithm for RLHF?",
+    "ground_truth": "Figure 12 outlines RLHF using human feedback to train a reward model which then guides the LLM; Section 5.2.3 describes Proximal Policy Optimization (PPO) as the standard reinforcement learning algorithm used in this process.",
+    "expected_action": "answer",
+    "gold_evidence": {
+      "page": 38,
+      "source": "Figure 12 & Section 5.2.3",
+      "quote": "Figure 12: The workflow of the RLHF algorithm; Section 5.2.3: PPO is widely adopted to optimize policy against reward model"
+    }
+  },
+  {
+    "id": "adv_dev_mhp_03",
+    "group": "Multi-hop",
+    "question": "According to Figure 14 and Table 11, what are the three major LLM utilization approaches described in Section 6, and what is the key difference between ICL and CoT?",
+    "ground_truth": "The three approaches are In-Context Learning (ICL), Chain-of-Thought (CoT), and Planning (Table 11). ICL relies on input demonstration examples whereas CoT incorporates intermediate reasoning steps before generating final answers (Figure 14).",
+    "expected_action": "answer",
+    "gold_evidence": {
+      "page": 45,
+      "source": "Table 11 & Figure 14",
+      "quote": "Table 11 lists ICL, CoT, and Planning; Figure 14 highlights intermediate reasoning steps in CoT vs demonstration-based query in ICL"
+    }
+  },
+  {
+    "id": "adv_dev_txt_01",
+    "group": "Text",
+    "question": "How does the survey define and contrast the KM scaling law with the Chinchilla scaling law?",
+    "ground_truth": "The KM scaling law favors a larger budget allocation in model size over data size, whereas the Chinchilla scaling law argues that model size and data size should be increased in equal proportions.",
+    "expected_action": "answer",
+    "gold_evidence": {
+      "page": 5,
+      "source": "Section 3.1.2",
+      "quote": "KM scaling law favors a larger budget allocation in model size than the data size, while the Chinchilla scaling law argues that the two sizes should be increased in equal scales"
+    }
+  },
+  {
+    "id": "adv_dev_txt_02",
+    "group": "Text",
+    "question": "What are the two major categories of hallucination discussed in the survey (intrinsic and extrinsic), and how are they defined?",
+    "ground_truth": "The two categories are intrinsic hallucination (the generated output contradicts the source context/input) and extrinsic hallucination (the generated output contains facts that cannot be verified or supported by the source context).",
+    "expected_action": "answer",
+    "gold_evidence": {
+      "page": 59,
+      "source": "Figure 17 & Section 7.1",
+      "quote": "Intrinsic hallucination ... contradicts the input. For extrinsic hallucination ... cannot be verified from the source"
+    }
+  },
+  {
+    "id": "adv_dev_txt_03",
+    "group": "Text",
+    "question": "What is the primary motivation for using FlashAttention in large language model training and inference?",
+    "ground_truth": "FlashAttention optimizes memory read/write operations between GPU HBM and SRAM by tiling computation, drastically reducing IO bottlenecks and speeding up self-attention computation.",
+    "expected_action": "answer",
+    "gold_evidence": {
+      "page": 25,
+      "source": "Section 4.3",
+      "quote": "FlashAttention optimizes memory read/write operations between GPU HBM and SRAM by tiling computation."
+    }
+  },
+  {
+    "id": "adv_dev_abs_01",
+    "group": "Abstention",
+    "question": "What is the exact price of NVIDIA RTX 5090 specified in Table 9?",
+    "ground_truth": "The document does not contain price information or specifications for NVIDIA RTX 5090.",
+    "expected_action": "abstain",
+    "gold_evidence": {
+      "page": null,
+      "source": "None",
+      "quote": "The document does not contain GPU pricing or RTX 5090."
+    }
+  },
+  {
+    "id": "adv_dev_abs_02",
+    "group": "Abstention",
+    "question": "According to the survey, what is the quantum computing algorithm used to train LLaMA 3?",
+    "ground_truth": "The survey does not mention any quantum computing algorithm used to train LLaMA models.",
+    "expected_action": "abstain",
+    "gold_evidence": {
+      "page": null,
+      "source": "None",
+      "quote": "The document does not describe quantum computing algorithms for LLaMA."
+    }
+  },
+  {
+    "id": "adv_dev_abs_03",
+    "group": "Abstention",
+    "question": "What is the corporate revenue and stock valuation of OpenAI reported in Table 1?",
+    "ground_truth": "Table 1 only contains technical model statistics (parameters, release time, hardware, data tokens) and does not contain corporate financial revenue or stock valuation.",
+    "expected_action": "abstain",
+    "gold_evidence": {
+      "page": null,
+      "source": "None",
+      "quote": "Financial data and stock valuation are absent from Table 1."
+    }
+  }
+]

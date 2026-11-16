@@ -1,0 +1,362 @@
+[
+  {
+    "id": "adv_test_tab_01",
+    "group": "Table",
+    "question": "According to Table 1, what is the release time, size in billions, and training hardware for PanGu-alpha?",
+    "ground_truth": "PanGu-alpha was released in Apr-2021, has size 13B* (or up to 200B), and was trained on 2048 Ascend 910 hardware.",
+    "expected_action": "answer",
+    "gold_evidence": {
+      "page": 8,
+      "source": "Table 1",
+      "quote": "PanGu-alpha | Apr-2021 | 13* | 2048Ascend910"
+    }
+  },
+  {
+    "id": "adv_test_tab_02",
+    "group": "Table",
+    "question": "In Table 3, what are the collection names, categories, and number of examples for Alpaca and ShareGPT?",
+    "ground_truth": "Alpaca is in the Synthetic category with 52K examples (Mar-2023); ShareGPT is in the Chat category with 90K examples (Mar-2023).",
+    "expected_action": "answer",
+    "gold_evidence": {
+      "page": 14,
+      "source": "Table 3",
+      "quote": "ShareGPT (Chat, 90K); Alpaca (Synthetic, 52K)"
+    }
+  },
+  {
+    "id": "adv_test_tab_03",
+    "group": "Table",
+    "question": "According to Table 5, what normalization method, number of layers (#L), and hidden dimension (d_model) are used by GPT-3 (175B)?",
+    "ground_truth": "GPT-3 (175B) uses PreLayerNorm, #L = 96 layers, and d_model = 12288.",
+    "expected_action": "answer",
+    "gold_evidence": {
+      "page": 23,
+      "source": "Table 5",
+      "quote": "GPT3[55] | Causaldecoder | 175B | PreLayerNorm | 96 | 96 | 12288"
+    }
+  },
+  {
+    "id": "adv_test_tab_04",
+    "group": "Table",
+    "question": "In Table 8, what is the optimizer, learning rate, and precision type configured for PaLM (540B)?",
+    "ground_truth": "PaLM (540B) uses the Adafactor optimizer, learning rate 1 x 10^-2, and BF16 precision.",
+    "expected_action": "answer",
+    "gold_evidence": {
+      "page": 29,
+      "source": "Table 8",
+      "quote": "PaLM(540B) | 1M->4M | 1x10^-2 | Adafactor | BF16"
+    }
+  },
+  {
+    "id": "adv_test_tab_05",
+    "group": "Table",
+    "question": "According to Table 9, how many A800 GPUs and tuning time are required for full parameter tuning of LLaMA (65B)?",
+    "ground_truth": "Full tuning of LLaMA (65B) requires 16 A800 GPUs with batch size 2, taking approximately 112 hours.",
+    "expected_action": "answer",
+    "gold_evidence": {
+      "page": 33,
+      "source": "Table 9",
+      "quote": "LLaMA(65B) | A800 Full Tuning: 16 GPUs, BS 2, 112h"
+    }
+  },
+  {
+    "id": "adv_test_tab_06",
+    "group": "Table",
+    "question": "According to Table 21, what is the memory footprint in GiB for LLaMA (13B) across 16-bit, 8-bit, and 4-bit quantizations?",
+    "ground_truth": "LLaMA (13B) requires 24.40 GiB in 16-bit, 12.53 GiB in 8-bit, and 7.34 GiB in 4-bit quantization.",
+    "expected_action": "answer",
+    "gold_evidence": {
+      "page": 88,
+      "source": "Table 21",
+      "quote": "LLaMA (13B): 16-bit Mem 24.40 GiB, 8-bit Mem 12.53 GiB, 4-bit Mem 7.34 GiB"
+    }
+  },
+  {
+    "id": "adv_test_img_01",
+    "group": "Image/Diagram",
+    "question": "According to Figure 2, what are the four generations of language models from the perspective of task solving capacity?",
+    "ground_truth": "The four generations are: Statistical Language Models (SLM), Neural Language Models (NLM), Pre-trained Language Models (PLM), and Large Language Models (LLM).",
+    "expected_action": "answer",
+    "gold_evidence": {
+      "page": 2,
+      "source": "Figure 2",
+      "quote": "Fig. 2: An evolution process of the four generations of language models (LM) from the perspective of task solving capacity"
+    }
+  },
+  {
+    "id": "adv_test_img_02",
+    "group": "Image/Diagram",
+    "question": "According to Figure 7, what are the major stages in the typical data preprocessing pipeline for pre-training LLMs?",
+    "ground_truth": "The preprocessing pipeline includes Quality Filtering (language filtering, heuristic rules), De-duplication, Privacy Redaction (PII removal), and Tokenization.",
+    "expected_action": "answer",
+    "gold_evidence": {
+      "page": 19,
+      "source": "Figure 7",
+      "quote": "Fig. 7: An illustration of a typical data preprocessing pipeline for pre-training large language models"
+    }
+  },
+  {
+    "id": "adv_test_img_03",
+    "group": "Image/Diagram",
+    "question": "In Figure 11, what three methods are illustrated for constructing instruction-formatted instances?",
+    "ground_truth": "The three methods illustrated are: formatting existing NLP datasets, collecting real human/user instructions (e.g. InstructGPT), and generating synthetic instructions using LLMs (e.g. Self-Instruct).",
+    "expected_action": "answer",
+    "gold_evidence": {
+      "page": 31,
+      "source": "Figure 11",
+      "quote": "Fig. 11: An illustration of instance formatting and three different methods for constructing the instruction-formatted instances"
+    }
+  },
+  {
+    "id": "adv_test_img_04",
+    "group": "Image/Diagram",
+    "question": "According to Figure 15, what is the evolutionary progression of Chain-of-Thought (CoT) prompting strategies?",
+    "ground_truth": "It begins with basic CoT, progresses to enhanced CoT generation techniques (sampling-based and verification-based), and extends to non-linear structures such as trees (Tree of Thoughts) and graphs.",
+    "expected_action": "answer",
+    "gold_evidence": {
+      "page": 53,
+      "source": "Figure 15",
+      "quote": "Fig. 15: An illustration of the evolution of CoT prompting strategies. It begins with the basic CoT approach ... extends to variations of the chain structure, such as trees and graphs"
+    }
+  },
+  {
+    "id": "adv_test_img_05",
+    "group": "Image/Diagram",
+    "question": "In Figure 16, what are the key components of prompt-based planning by LLMs for solving complex tasks?",
+    "ground_truth": "The framework consists of a Task Planner (plan generation), a Plan Executor, an Environment providing feedback, and Plan Refinement mechanisms.",
+    "expected_action": "answer",
+    "gold_evidence": {
+      "page": 54,
+      "source": "Figure 16",
+      "quote": "Fig. 16: An illustration of the formulation for prompt based planning by LLMs for solving complex tasks"
+    }
+  },
+  {
+    "id": "adv_test_cht_01",
+    "group": "Chart",
+    "question": "In Figure 1(b), how did the daily average publication rate of arXiv papers containing large language model change before and after ChatGPT?",
+    "ground_truth": "The average number of published arXiv papers per day mentioning large language model increased sharply from 0.40 per day to 8.58 per day after the release of ChatGPT.",
+    "expected_action": "answer",
+    "gold_evidence": {
+      "page": 2,
+      "source": "Figure 1 & text",
+      "quote": "goes from 0.40 per day to 8.58 per day (Figure 1(b))"
+    }
+  },
+  {
+    "id": "adv_test_cht_02",
+    "group": "Chart",
+    "question": "According to Figure 3, how are models with publicly available checkpoints visually distinguished in the timeline?",
+    "ground_truth": "In Figure 3, models with publicly available checkpoints are highlighted with a distinct yellow background.",
+    "expected_action": "answer",
+    "gold_evidence": {
+      "page": 9,
+      "source": "Figure 3",
+      "quote": "Models with publicly available checkpoints are highlighted in yellow"
+    }
+  },
+  {
+    "id": "adv_test_cht_03",
+    "group": "Chart",
+    "question": "In Figure 5, what open-source LLM research family is tracked, and how do the authors support incremental updates of this chart?",
+    "ground_truth": "Figure 5 tracks the evolutionary graph of the LLaMA research family; authors share the source file and invite community pull requests on GitHub for incremental updates.",
+    "expected_action": "answer",
+    "gold_evidence": {
+      "page": 12,
+      "source": "Figure 5",
+      "quote": "Fig. 5: An evolutionary graph of the research work conducted on LLaMA ... share the source file of this figure, and welcome pull requests"
+    }
+  },
+  {
+    "id": "adv_test_cht_04",
+    "group": "Chart",
+    "question": "In Figure 8, what aspects of pre-training data scheduling are illustrated?",
+    "ground_truth": "Figure 8 illustrates data scheduling along two dimensions: adjusting the mixing ratios of diverse data sources during training, and curriculum learning from simple to complex data.",
+    "expected_action": "answer",
+    "gold_evidence": {
+      "page": 20,
+      "source": "Figure 8",
+      "quote": "Fig. 8: An illustration of data scheduling for pre-training LLMs"
+    }
+  },
+  {
+    "id": "adv_test_cht_05",
+    "group": "Chart",
+    "question": "In Figure 10, what context sentence is used to illustrate the next-token probability distribution over vocabulary?",
+    "ground_truth": "The context sentence is I am sleepy. I start a pot of, used to display the descending probability distribution for subsequent tokens such as coffee.",
+    "expected_action": "answer",
+    "gold_evidence": {
+      "page": 26,
+      "source": "Figure 10",
+      "quote": "context I am sleepy. I start a pot of"
+    }
+  },
+  {
+    "id": "adv_test_mhp_01",
+    "group": "Multi-hop",
+    "question": "According to Figure 17 and Section 7.1, what example is used to demonstrate intrinsic hallucination regarding Bob, Amy, and Cindy, and why is it contradictory?",
+    "ground_truth": "Given the context that Bob is married to Amy and Cindy is Bob daughter, the LLM hallucinates that Cindy is Amy daughter-in-law, directly contradicting the premise that Cindy is Amy daughter.",
+    "expected_action": "answer",
+    "gold_evidence": {
+      "page": 59,
+      "source": "Figure 17 & Section 7.1",
+      "quote": "Bob wife is Amy. Bob daughter is Cindy ... Cindy is Amy daughter-in-law"
+    }
+  },
+  {
+    "id": "adv_test_mhp_02",
+    "group": "Multi-hop",
+    "question": "Comparing Table 1 and Section 3.3.1, when was LLaMA introduced by Meta, what sizes were released, and how does Figure 5 reflect its ecosystem?",
+    "ground_truth": "LLaMA was introduced in Feb-2023 with sizes 7B, 13B, 30B, and 65B (Table 1 & Section 3.3.1), sparking an extensive open-source fine-tuning and adaptation ecosystem visualized in Figure 5.",
+    "expected_action": "answer",
+    "gold_evidence": {
+      "page": 8,
+      "source": "Table 1, Section 3.3.1, Figure 5",
+      "quote": "LLaMA collection introduced by Meta in Feb-2023 (7B, 13B, 30B, 65B)"
+    }
+  },
+  {
+    "id": "adv_test_mhp_03",
+    "group": "Multi-hop",
+    "question": "In Table 5, what position embedding method does BLOOM use, and how does Section 4.3 compare its length extrapolation properties to standard sinusoidal embeddings?",
+    "ground_truth": "BLOOM uses ALiBi (Table 5). Section 4.3 notes that ALiBi applies pre-defined static penalties on attention scores without trainable parameters, demonstrating superior length extrapolation compared to sinusoidal PE.",
+    "expected_action": "answer",
+    "gold_evidence": {
+      "page": 23,
+      "source": "Table 5 & Section 4.3",
+      "quote": "BLOOM uses ALiBi (Table 5); ALiBi improves extrapolation with static distance penalty (Section 4.3)"
+    }
+  },
+  {
+    "id": "adv_test_mhp_04",
+    "group": "Multi-hop",
+    "question": "According to Table 14 and Section 6.1, what are two benchmark datasets used for closed-book QA, and what core ability does this evaluate?",
+    "ground_truth": "Datasets such as Natural Questions and TriviaQA (Table 14) are used for Closed-Book QA, evaluating the model Knowledge Utilization and factual retrieval ability without external retrieval.",
+    "expected_action": "answer",
+    "gold_evidence": {
+      "page": 57,
+      "source": "Table 14 & Section 6.1",
+      "quote": "Closed-Book QA: Natural Questions, TriviaQA; evaluates Knowledge Utilization"
+    }
+  },
+  {
+    "id": "adv_test_txt_01",
+    "group": "Text",
+    "question": "How does the survey define emergent abilities in Large Language Models, and what are typical examples?",
+    "ground_truth": "Emergent abilities are abilities that are not present in smaller language models but emerge abruptly when the model size exceeds a certain critical threshold (e.g., in-context learning, chain-of-thought reasoning, multi-step math).",
+    "expected_action": "answer",
+    "gold_evidence": {
+      "page": 6,
+      "source": "Section 2.2.1",
+      "quote": "abilities that are not present in smaller models but emerge in large models ... performance surges above random once scale passes a threshold"
+    }
+  },
+  {
+    "id": "adv_test_txt_02",
+    "group": "Text",
+    "question": "What are the three criteria of human alignment (the 3H criteria) emphasized in the survey?",
+    "ground_truth": "The 3H criteria are: Helpful (assisting users effectively to solve tasks), Honest (providing accurate, truthful information without fabricating), and Harmless (avoiding hate speech, bias, or toxic content).",
+    "expected_action": "answer",
+    "gold_evidence": {
+      "page": 36,
+      "source": "Section 5.2.1",
+      "quote": "Helpful, Honest, and Harmless (3H criteria)"
+    }
+  },
+  {
+    "id": "adv_test_txt_03",
+    "group": "Text",
+    "question": "What is the role of DeepSpeed ZeRO (Zero Redundancy Optimizer) in distributed training of LLMs?",
+    "ground_truth": "ZeRO eliminates memory redundancies in data-parallel training by partitioning optimizer states (ZeRO-1), gradients (ZeRO-2), and model parameters (ZeRO-3) across data-parallel processes.",
+    "expected_action": "answer",
+    "gold_evidence": {
+      "page": 82,
+      "source": "Section 4.3.2 / Section 8",
+      "quote": "ZeRO. Zero redundancy optimizer technique, proposed by the DeepSpeed library, focuses on alleviating the issue of memory redundancy in data parallelism."
+    }
+  },
+  {
+    "id": "adv_test_txt_04",
+    "group": "Text",
+    "question": "What is the Self-Instruct method and what was its original seed task requirement?",
+    "ground_truth": "Self-Instruct generates synthetic instruction tuning datasets iteratively using an LLM itself, starting from a small curated seed pool of only 175 human-written tasks.",
+    "expected_action": "answer",
+    "gold_evidence": {
+      "page": 15,
+      "source": "Section 4.1.2",
+      "quote": "Self-Instruct-52K is an instruction dataset ... authors construct 175 seed instances, and then iteratively prompt the LLM to synthesize additional instructions."
+    }
+  },
+  {
+    "id": "adv_test_abs_01",
+    "group": "Abstention",
+    "question": "What is the quarterly revenue and gross margin of NVIDIA reported in the survey?",
+    "ground_truth": "The survey focuses purely on LLM algorithms, training, and architectures; it does not contain corporate financial statements or gross margins for NVIDIA.",
+    "expected_action": "abstain",
+    "gold_evidence": {
+      "page": null,
+      "source": "None",
+      "quote": "Financial data for NVIDIA is not present."
+    }
+  },
+  {
+    "id": "adv_test_abs_02",
+    "group": "Abstention",
+    "question": "What is the medical dosage recommendation for treating malaria discussed in Table 16?",
+    "ground_truth": "Table 16 evaluates eight NLP abilities of LLMs; the survey does not provide clinical pharmaceutical dosages for treating malaria.",
+    "expected_action": "abstain",
+    "gold_evidence": {
+      "page": null,
+      "source": "None",
+      "quote": "Medical prescriptions and clinical malaria dosages are absent."
+    }
+  },
+  {
+    "id": "adv_test_abs_03",
+    "group": "Abstention",
+    "question": "According to the document, which country won the FIFA World Cup 2026 and what was the final match score?",
+    "ground_truth": "The document does not contain sports results or World Cup 2026 information.",
+    "expected_action": "abstain",
+    "gold_evidence": {
+      "page": null,
+      "source": "None",
+      "quote": "World Cup 2026 outcomes are absent."
+    }
+  },
+  {
+    "id": "adv_test_abs_04",
+    "group": "Abstention",
+    "question": "What is the architectural blueprint of quantum superconducting qubits described in Section 4.3?",
+    "ground_truth": "Section 4.3 is devoted to Transformer architectures (attention, layer norm, position embeddings) for digital GPUs/TPUs and does not discuss superconducting quantum hardware.",
+    "expected_action": "abstain",
+    "gold_evidence": {
+      "page": null,
+      "source": "None",
+      "quote": "Quantum computing blueprints are absent."
+    }
+  },
+  {
+    "id": "adv_test_abs_05",
+    "group": "Abstention",
+    "question": "What are the passenger ticket prices and route schedules of Vietnam Airlines in Table 8?",
+    "ground_truth": "Table 8 specifies optimization settings (batch size, learning rate, warmup, decay) of LLMs and does not contain airline schedules or ticket prices.",
+    "expected_action": "abstain",
+    "gold_evidence": {
+      "page": null,
+      "source": "None",
+      "quote": "Commercial airline prices and routes are absent."
+    }
+  },
+  {
+    "id": "adv_test_abs_06",
+    "group": "Abstention",
+    "question": "What is the chemical synthesis formula and patent expiration date of Aspirin according to Figure 12?",
+    "ground_truth": "Figure 12 illustrates the algorithmic workflow of RLHF (Reinforcement Learning from Human Feedback) and does not describe chemical formulas or patents for Aspirin.",
+    "expected_action": "abstain",
+    "gold_evidence": {
+      "page": null,
+      "source": "None",
+      "quote": "Chemical formulas and pharmaceutical patents are absent."
+    }
+  }
+]
