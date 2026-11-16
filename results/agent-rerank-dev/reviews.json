@@ -1,0 +1,136 @@
+[
+  {
+    "query_id": "d-q01",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Đúng 43% (1990) và 11% (2020); citation p009 chứa nguyên văn gold."
+  },
+  {
+    "query_id": "d-q02",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "811 million, 1 in 10 - đúng và đủ; citation p009 chứa gold."
+  },
+  {
+    "query_id": "d-q03",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "3.7 billion, nearly half of humanity - đúng; citation p017 chứa gold."
+  },
+  {
+    "query_id": "d-q04",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "1.5 billion, phần lớn sống trên đường nghèo cực đoan - đúng; citation p009 chứa gold."
+  },
+  {
+    "query_id": "d-q05",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "more than 130 economies + first global profile of poor and nonpoor adults - đúng và đủ; citation p009 chứa gold. Rerank đưa đúng chunk lên rank 1 ngay lượt search đầu, nên chỉ cần 1 tool call (dense cần 4 và vẫn không tìm ra)."
+  },
+  {
+    "query_id": "d-q06",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "243 million - đúng; citation p017 chứa gold."
+  },
+  {
+    "query_id": "d-q07",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "$4.20 và $8.30 - đúng; citation p017 chứa gold. Câu trả lời không nêu riêng giới hạn $3.00 nhưng câu hỏi chỉ hỏi 'at which poverty lines'."
+  },
+  {
+    "query_id": "d-q08",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "87 percent - đúng; citation p017 chứa gold."
+  },
+  {
+    "query_id": "d-q09",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "notes": "70 (2000) -> 42 (2024) - đúng; cả hai citation đều hỗ trợ."
+  },
+  {
+    "query_id": "d-q11",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "10.5, 5.5, 4.5 - đúng và đủ; citation p019 chứa gold."
+  },
+  {
+    "query_id": "d-q12",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "notes": "11.1, twice the global average of 4.5, roughly where the world stood in 1990 - đúng và đủ; citation p019 chứa gold, p028 hỗ trợ."
+  },
+  {
+    "query_id": "d-q13",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "1.5 billion - đúng; citation p020 chứa gold."
+  },
+  {
+    "query_id": "d-q15",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "52.8 GtCO2e năm 2024, cao hơn 48% so với 2000, kèm điều kiện loại trừ land use - đúng và đủ; citation p021 chứa gold."
+  },
+  {
+    "query_id": "d-q17",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "three in five, 6 percentage points below - đúng và đủ; citation p031 chứa gold."
+  },
+  {
+    "query_id": "d-q18",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "88 trong 138 economies - đúng; citation p022 chứa gold."
+  },
+  {
+    "query_id": "n01",
+    "abstention_correct": true,
+    "citation_support": [],
+    "notes": "Abstain sau 4 lượt search, không thêm khẳng định vô căn cứ. Đúng."
+  },
+  {
+    "query_id": "n02",
+    "abstention_correct": true,
+    "citation_support": [],
+    "notes": "Abstain sau 4 lượt search, không thêm khẳng định vô căn cứ. Đúng."
+  }
+]

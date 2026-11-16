@@ -1,0 +1,1050 @@
+[
+ {
+  "run": "agent-dense-dev",
+  "id": "d-q01",
+  "status": "answered",
+  "answerable": true,
+  "q": "According to the Foreword, what share of the world's population lived in extreme poverty in 1990 and what share lived in it in 2020?",
+  "expected": "43 percent in 1990 and about 11 percent in 2020.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 9,
+    "evidence": "Between 1990 and 2020, the share of the world's population living in extreme poverty fell from 43 percent to 11 percent"
+   },
+   {
+    "source_id": "ppp2026-overview",
+    "page": 25,
+    "evidence": "In 1990, 43 percent of the world's population was living in extreme poverty."
+   }
+  ],
+  "answer": "According to the Foreword, the share fell from 43 percent in 1990 to 11 percent in 2020 [S:ppp2026-overview:p009:c0000].",
+  "citations": [
+   "S:ppp2026-overview:p009:c0000"
+  ]
+ },
+ {
+  "run": "agent-dense-dev",
+  "id": "d-q02",
+  "status": "answered",
+  "answerable": true,
+  "q": "How many people are estimated to live below the international extreme poverty line of $3.00 a day in 2026?",
+  "expected": "An estimated 811 million people, 1 in 10.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 9,
+    "evidence": "In 2026, an estimated 811 million people, 1 in 10, live below the international extreme poverty line of $3.00 a day, a rate unchanged since 2019."
+   },
+   {
+    "source_id": "ppp2026-overview",
+    "page": 17,
+    "evidence": "In 2026, 811 million people, 1 in 10, are living on less than $3.00 a day, a rate unchanged since 2019."
+   },
+   {
+    "source_id": "ppp2026-overview",
+    "page": 25,
+    "evidence": "In 2026, an estimated 811 million people-one person in 10-were living below the international poverty line of $3.00 a day."
+   }
+  ],
+  "answer": "An estimated 811 million people are expected to live below the international extreme poverty line of $3.00 a day in 2026 [S:ppp2026-overview:p009:c0001].",
+  "citations": [
+   "S:ppp2026-overview:p009:c0001"
+  ]
+ },
+ {
+  "run": "agent-dense-dev",
+  "id": "d-q03",
+  "status": "answered",
+  "answerable": true,
+  "q": "What is the number of people living on less than $8.30 a day, and what share of humanity is that?",
+  "expected": "3.7 billion people, nearly half of humanity.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 9,
+    "evidence": "Nearly half of humanity, 3.7 billion people, live below the $8.30-a-day poverty line typically used to measure poverty in upper-middle-income countries"
+   },
+   {
+    "source_id": "ppp2026-overview",
+    "page": 17,
+    "evidence": "Nearly half of humanity, 3.7 billion people, is still living on less than $8.30 a day, the poverty line in upper-middle- income economies."
+   },
+   {
+    "source_id": "ppp2026-overview",
+    "page": 25,
+    "evidence": "Even so, nearly half of humanity-3.7 billion people-are still living on less than $8.30 a day."
+   }
+  ],
+  "answer": "3.7 billion people live on less than $8.30 a day—nearly half of humanity [S:ppp2026-overview:p017:c0002].",
+  "citations": [
+   "S:ppp2026-overview:p017:c0002"
+  ]
+ },
+ {
+  "run": "agent-dense-dev",
+  "id": "d-q04",
+  "status": "answered",
+  "answerable": true,
+  "q": "How many people are exposed to climate hazards but lack the means to cope with them, and where do most of them live relative to the extreme poverty line?",
+  "expected": "1.5 billion people, most of them living above the extreme poverty line.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 9,
+    "evidence": "1.5 billion people, most living above the extreme poverty line, are exposed to climate hazards but lack the means to cope with these hazards."
+   },
+   {
+    "source_id": "ppp2026-overview",
+    "page": 20,
+    "evidence": "Of the 4.6 billion people exposed to a major climate hazard, 1.5 billion are also highly vulnerable because they lack social protection or access to basic infrastructure, and most of the highly vulnerable live above the extreme poverty line."
+   }
+  ],
+  "answer": "1.5 billion people are exposed to climate hazards but lack the means to cope with them; most of them live above the extreme poverty line [S:ppp2026-overview:p009:c0002].",
+  "citations": [
+   "S:ppp2026-overview:p009:c0002"
+  ]
+ },
+ {
+  "run": "agent-dense-dev",
+  "id": "d-q05",
+  "status": "abstain",
+  "answerable": true,
+  "q": "How many economies does the report draw on for its new data, and what does that data provide for the first time?",
+  "expected": "New data for more than 130 economies; it provides the first global profile of the work done by poor and nonpoor adults.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 9,
+    "evidence": "Drawing on new data for more than 130 economies, it provides the first global profile of the work done by poor and nonpoor adults."
+   }
+  ],
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": []
+ },
+ {
+  "run": "agent-dense-dev",
+  "id": "d-q06",
+  "status": "answered",
+  "answerable": true,
+  "q": "The decline in extreme poverty has stalled. If the 2000-13 pace had been kept up, how many more people would have escaped poverty?",
+  "expected": "243 million additional people would have escaped poverty.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 17,
+    "evidence": "Had the 2000-13 pace been maintained, 243 million additional people would have escaped poverty."
+   },
+   {
+    "source_id": "ppp2026-overview",
+    "page": 25,
+    "evidence": "Had poverty continued to fall at the 2000-13 pace, roughly 240 million fewer people would be poor today."
+   }
+  ],
+  "answer": "243 million additional people would have escaped extreme poverty [S:ppp2026-overview:p017:c0000].",
+  "citations": [
+   "S:ppp2026-overview:p017:c0000"
+  ]
+ },
+ {
+  "run": "agent-dense-dev",
+  "id": "d-q07",
+  "status": "answered",
+  "answerable": true,
+  "q": "At which poverty lines has poverty reduction kept the earlier pace even though the extreme line has stagnated?",
+  "expected": "At $4.20 and $8.30 a day; the stagnation is confined to the $3.00 extreme line.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 17,
+    "evidence": "The stagnation is confined to the extreme line; at $4.20 and $8.30, poverty reduction has kept the earlier pace"
+   }
+  ],
+  "answer": "At the $4.20 and $8.30 poverty lines, poverty reduction has kept the earlier pace despite stagnation at the extreme $3.00 line [S:ppp2026-overview:p017:c0000].",
+  "citations": [
+   "S:ppp2026-overview:p017:c0000"
+  ]
+ },
+ {
+  "run": "agent-dense-dev",
+  "id": "d-q08",
+  "status": "answered",
+  "answerable": true,
+  "q": "By 2030, what share of the world's extreme poor is projected to live in Sub-Saharan Africa, in a fragile and conflict-affected situation, or both?",
+  "expected": "87 percent.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 17,
+    "evidence": "by 2030, 87 percent will be living in Sub-Saharan Africa, in a fragile and conflict-affected situation, or both"
+   },
+   {
+    "source_id": "ppp2026-overview",
+    "page": 27,
+    "evidence": "If economies grow over the coming years at the per capita economic growth rates experienced from 2015 to 2024, both the global extreme poverty rate and the number of people living in extreme poverty will be higher in 2030 than today."
+   }
+  ],
+  "answer": "By 2030, 87 percent of the world’s extreme poor are projected to live in Sub-Saharan Africa, in a fragile and conflict-affected situation, or both [S:ppp2026-overview:p017:c0001].",
+  "citations": [
+   "S:ppp2026-overview:p017:c0001"
+  ]
+ },
+ {
+  "run": "agent-dense-dev",
+  "id": "d-q09",
+  "status": "answered",
+  "answerable": true,
+  "q": "How did the number of high-inequality economies (Gini above 40) change between 2000 and 2024?",
+  "expected": "It fell from 70 economies in 2000 to 42 in 2024.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 19,
+    "evidence": "The number of economies with a Gini index above 40 fell from 70 in 2000 to 42 in 2024"
+   },
+   {
+    "source_id": "ppp2026-overview",
+    "page": 28,
+    "evidence": "The report's count of high-inequality economies illustrates what a headline figure may conceal. The count fell from 70 in 2000 to 42 in 2024, a decline of more than one-third."
+   }
+  ],
+  "answer": "The number fell from 70 economies in 2000 to 42 in 2024—a decline of 28 economies, or 40% (more than one-third) [S:ppp2026-overview:p019:c0002] [S:ppp2026-overview:p028:c0002].",
+  "citations": [
+   "S:ppp2026-overview:p019:c0002",
+   "S:ppp2026-overview:p028:c0002"
+  ]
+ },
+ {
+  "run": "agent-dense-dev",
+  "id": "d-q11",
+  "status": "answered",
+  "answerable": true,
+  "q": "What was the Global Prosperity Gap in 1990, in 2013 and in 2026?",
+  "expected": "In 1990 incomes needed to rise 10.5-fold; the gap had fallen to 5.5 by 2013 and stood at 4.5 in 2026.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 19,
+    "evidence": "By 2013, the Prosperity Gap had fallen to 5.5, and it stood at 4.5 in 2026"
+   }
+  ],
+  "answer": "The Global Prosperity Gap was 10.5 in 1990, 5.5 in 2013, and 4.5 in 2026 [S:ppp2026-overview:p019:c0003].",
+  "citations": [
+   "S:ppp2026-overview:p019:c0003"
+  ]
+ },
+ {
+  "run": "agent-dense-dev",
+  "id": "d-q12",
+  "status": "answered",
+  "answerable": true,
+  "q": "What is the Prosperity Gap in Sub-Saharan Africa, and how does it compare with the global average?",
+  "expected": "It is at 11.1, twice the global average and roughly where the world stood in 1990.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 19,
+    "evidence": "The gap in Sub-Saharan Africa is at 11.1, twice the global average and roughly where the world stood in 1990."
+   },
+   {
+    "source_id": "ppp2026-overview",
+    "page": 28,
+    "evidence": "In Sub-Saharan Africa, consistent with the stalling poverty reduction, the pace is 0.7 percent a year."
+   }
+  ],
+  "answer": "The Prosperity Gap in Sub-Saharan Africa is 11.1—roughly twice the global average. This indicator measures the average factor by which incomes must be multiplied to reach a dignified and secure daily standard of living [S:ppp2026-overview:p019:c0003] [S:ppp2026-overview:p028:c0005].",
+  "citations": [
+   "S:ppp2026-overview:p019:c0003",
+   "S:ppp2026-overview:p028:c0005"
+  ]
+ },
+ {
+  "run": "agent-dense-dev",
+  "id": "d-q13",
+  "status": "answered",
+  "answerable": true,
+  "q": "Of the people exposed to a major climate hazard, how many are also highly vulnerable because they lack social protection or basic infrastructure?",
+  "expected": "1.5 billion of the 4.6 billion exposed.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 20,
+    "evidence": "Of the 4.6 billion people exposed to a major climate hazard, 1.5 billion are also highly vulnerable because they lack social protection or access to basic infrastructure"
+   },
+   {
+    "source_id": "ppp2026-overview",
+    "page": 29,
+    "evidence": "Around 4.6 billion people live in exposed areas, and 2.7 billion live in highly vulnerable conditions; about 1.5 billion people experience both types of vulnerability."
+   }
+  ],
+  "answer": "About 1.5 billion people are both exposed to a major climate hazard and highly vulnerable because they lack social protection or access to basic infrastructure [S:ppp2026-overview:p020:c0001].",
+  "citations": [
+   "S:ppp2026-overview:p020:c0001"
+  ]
+ },
+ {
+  "run": "agent-dense-dev",
+  "id": "d-q15",
+  "status": "answered",
+  "answerable": true,
+  "q": "What were global greenhouse gas emissions in 2024 and how much higher were they than in 2000?",
+  "expected": "52.8 GtCO2e in 2024, about 48 percent above the 2000 level.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 21,
+    "evidence": "reached 52.8 metric gigatons of carbon dioxide equivalent (GtCO2e) in 2024, 48 percent above the levels in 2000"
+   },
+   {
+    "source_id": "ppp2026-overview",
+    "page": 29,
+    "evidence": "GHG emissions, excluding those from land use, forestry, and changes in land use, reached 52.8 metric gigatons of carbon dioxide equivalent (GtCO2e) in 2024, about 48.0 percent above the levels in 2000, although they rose by only 0.6 percent in 2024."
+   }
+  ],
+  "answer": "Global greenhouse gas emissions, excluding land use, land-use change, and forestry, reached 52.8 metric gigatons of CO₂ equivalent (GtCO₂e) in 2024—about 48.0% higher than in 2000 [S:ppp2026-overview:p029:c0005].",
+  "citations": [
+   "S:ppp2026-overview:p029:c0005"
+  ]
+ },
+ {
+  "run": "agent-dense-dev",
+  "id": "d-q17",
+  "status": "answered",
+  "answerable": true,
+  "q": "How do the employment rates of working-age adults in poor households compare with those in nonpoor households?",
+  "expected": "Poor-household adults are employed at rates only 6 percentage points below nonpoor-household adults.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 22,
+    "evidence": "Working-age adults in poor households are employed at rates only 6 percentage points below the corresponding rates in nonpoor households"
+   },
+   {
+    "source_id": "ppp2026-overview",
+    "page": 31,
+    "evidence": "About three in five working-age adults in poor households are employed, some 6 percentage points below the rate among adults in nonpoor households."
+   }
+  ],
+  "answer": "About three in five working-age adults in poor households are employed—roughly 6 percentage points below the employment rate among adults in nonpoor households. Globally, the rates are therefore fairly similar, although the gap is small or absent in poorer economies and wider in richer economies [S:ppp2026-overview:p031:c0004].",
+  "citations": [
+   "S:ppp2026-overview:p031:c0004"
+  ]
+ },
+ {
+  "run": "agent-dense-dev",
+  "id": "d-q18",
+  "status": "answered",
+  "answerable": true,
+  "q": "In how many of the 138 economies did employment among the poor fall over 2003-24?",
+  "expected": "88 of 138 economies.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 22,
+    "evidence": "Employment among the poor fell in 88 of 138 economies over 2003-24"
+   },
+   {
+    "source_id": "ppp2026-overview",
+    "page": 31,
+    "evidence": "From 2003 to 2024, employment rates among the poor fell in 88 of 138 countries"
+   }
+  ],
+  "answer": "Employment among the poor fell in 88 of the 138 economies over 2003–24 [S:ppp2026-overview:p022:c0001].",
+  "citations": [
+   "S:ppp2026-overview:p022:c0001"
+  ]
+ },
+ {
+  "run": "agent-dense-dev",
+  "id": "n01",
+  "status": "abstain",
+  "answerable": false,
+  "q": "What is the extreme poverty rate in Vietnam?",
+  "expected": null,
+  "absence": "Đã tìm toàn văn 'Vietnam' trong PDF (trang 1-36), không có kết quả. Booklet chỉ báo cáo số liệu toàn cầu và theo khu vực, không có tỷ lệ nghèo cực đoan theo từng quốc gia.",
+  "gold": null,
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": []
+ },
+ {
+  "run": "agent-dense-dev",
+  "id": "n02",
+  "status": "abstain",
+  "answerable": false,
+  "q": "How much would a global carbon tax reduce greenhouse gas emissions by 2030?",
+  "expected": null,
+  "absence": "Đã tìm toàn văn 'carbon tax' trong PDF, không có kết quả. Phần về phát thải khí (trang 21, 29-30) chỉ báo cáo mức phát thải, xu hướng và đối chiếu chi phí-lợi ích, không đề cập chính sách thuế carbon.",
+  "gold": null,
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": []
+ },
+ {
+  "run": "agent-rerank-dev",
+  "id": "d-q01",
+  "status": "answered",
+  "answerable": true,
+  "q": "According to the Foreword, what share of the world's population lived in extreme poverty in 1990 and what share lived in it in 2020?",
+  "expected": "43 percent in 1990 and about 11 percent in 2020.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 9,
+    "evidence": "Between 1990 and 2020, the share of the world's population living in extreme poverty fell from 43 percent to 11 percent"
+   },
+   {
+    "source_id": "ppp2026-overview",
+    "page": 25,
+    "evidence": "In 1990, 43 percent of the world's population was living in extreme poverty."
+   }
+  ],
+  "answer": "According to the Foreword, the share of the world's population living in extreme poverty fell from 43 percent in 1990 to 11 percent in 2020 [S:ppp2026-overview:p009:c0000].",
+  "citations": [
+   "S:ppp2026-overview:p009:c0000"
+  ]
+ },
+ {
+  "run": "agent-rerank-dev",
+  "id": "d-q02",
+  "status": "answered",
+  "answerable": true,
+  "q": "How many people are estimated to live below the international extreme poverty line of $3.00 a day in 2026?",
+  "expected": "An estimated 811 million people, 1 in 10.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 9,
+    "evidence": "In 2026, an estimated 811 million people, 1 in 10, live below the international extreme poverty line of $3.00 a day, a rate unchanged since 2019."
+   },
+   {
+    "source_id": "ppp2026-overview",
+    "page": 17,
+    "evidence": "In 2026, 811 million people, 1 in 10, are living on less than $3.00 a day, a rate unchanged since 2019."
+   },
+   {
+    "source_id": "ppp2026-overview",
+    "page": 25,
+    "evidence": "In 2026, an estimated 811 million people-one person in 10-were living below the international poverty line of $3.00 a day."
+   }
+  ],
+  "answer": "An estimated 811 million people are expected to live below the international extreme poverty line of $3.00 a day in 2026 [S:ppp2026-overview:p009:c0001].",
+  "citations": [
+   "S:ppp2026-overview:p009:c0001"
+  ]
+ },
+ {
+  "run": "agent-rerank-dev",
+  "id": "d-q03",
+  "status": "answered",
+  "answerable": true,
+  "q": "What is the number of people living on less than $8.30 a day, and what share of humanity is that?",
+  "expected": "3.7 billion people, nearly half of humanity.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 9,
+    "evidence": "Nearly half of humanity, 3.7 billion people, live below the $8.30-a-day poverty line typically used to measure poverty in upper-middle-income countries"
+   },
+   {
+    "source_id": "ppp2026-overview",
+    "page": 17,
+    "evidence": "Nearly half of humanity, 3.7 billion people, is still living on less than $8.30 a day, the poverty line in upper-middle- income economies."
+   },
+   {
+    "source_id": "ppp2026-overview",
+    "page": 25,
+    "evidence": "Even so, nearly half of humanity-3.7 billion people-are still living on less than $8.30 a day."
+   }
+  ],
+  "answer": "About 3.7 billion people—nearly half of humanity—live on less than $8.30 a day [S:ppp2026-overview:p017:c0002].",
+  "citations": [
+   "S:ppp2026-overview:p017:c0002"
+  ]
+ },
+ {
+  "run": "agent-rerank-dev",
+  "id": "d-q04",
+  "status": "answered",
+  "answerable": true,
+  "q": "How many people are exposed to climate hazards but lack the means to cope with them, and where do most of them live relative to the extreme poverty line?",
+  "expected": "1.5 billion people, most of them living above the extreme poverty line.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 9,
+    "evidence": "1.5 billion people, most living above the extreme poverty line, are exposed to climate hazards but lack the means to cope with these hazards."
+   },
+   {
+    "source_id": "ppp2026-overview",
+    "page": 20,
+    "evidence": "Of the 4.6 billion people exposed to a major climate hazard, 1.5 billion are also highly vulnerable because they lack social protection or access to basic infrastructure, and most of the highly vulnerable live above the extreme poverty line."
+   }
+  ],
+  "answer": "About 1.5 billion people are exposed to climate hazards but lack the means to cope with them; most of them live above the extreme poverty line [S:ppp2026-overview:p009:c0002].",
+  "citations": [
+   "S:ppp2026-overview:p009:c0002"
+  ]
+ },
+ {
+  "run": "agent-rerank-dev",
+  "id": "d-q05",
+  "status": "answered",
+  "answerable": true,
+  "q": "How many economies does the report draw on for its new data, and what does that data provide for the first time?",
+  "expected": "New data for more than 130 economies; it provides the first global profile of the work done by poor and nonpoor adults.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 9,
+    "evidence": "Drawing on new data for more than 130 economies, it provides the first global profile of the work done by poor and nonpoor adults."
+   }
+  ],
+  "answer": "The report draws on new data for more than 130 economies, providing the first global profile of the work done by poor and nonpoor adults [S:ppp2026-overview:p009:c0003].",
+  "citations": [
+   "S:ppp2026-overview:p009:c0003"
+  ]
+ },
+ {
+  "run": "agent-rerank-dev",
+  "id": "d-q06",
+  "status": "answered",
+  "answerable": true,
+  "q": "The decline in extreme poverty has stalled. If the 2000-13 pace had been kept up, how many more people would have escaped poverty?",
+  "expected": "243 million additional people would have escaped poverty.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 17,
+    "evidence": "Had the 2000-13 pace been maintained, 243 million additional people would have escaped poverty."
+   },
+   {
+    "source_id": "ppp2026-overview",
+    "page": 25,
+    "evidence": "Had poverty continued to fall at the 2000-13 pace, roughly 240 million fewer people would be poor today."
+   }
+  ],
+  "answer": "243 million additional people would have escaped poverty [S:ppp2026-overview:p017:c0000].",
+  "citations": [
+   "S:ppp2026-overview:p017:c0000"
+  ]
+ },
+ {
+  "run": "agent-rerank-dev",
+  "id": "d-q07",
+  "status": "answered",
+  "answerable": true,
+  "q": "At which poverty lines has poverty reduction kept the earlier pace even though the extreme line has stagnated?",
+  "expected": "At $4.20 and $8.30 a day; the stagnation is confined to the $3.00 extreme line.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 17,
+    "evidence": "The stagnation is confined to the extreme line; at $4.20 and $8.30, poverty reduction has kept the earlier pace"
+   }
+  ],
+  "answer": "At poverty lines of $4.20 and $8.30 a day [S:ppp2026-overview:p017:c0000].",
+  "citations": [
+   "S:ppp2026-overview:p017:c0000"
+  ]
+ },
+ {
+  "run": "agent-rerank-dev",
+  "id": "d-q08",
+  "status": "answered",
+  "answerable": true,
+  "q": "By 2030, what share of the world's extreme poor is projected to live in Sub-Saharan Africa, in a fragile and conflict-affected situation, or both?",
+  "expected": "87 percent.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 17,
+    "evidence": "by 2030, 87 percent will be living in Sub-Saharan Africa, in a fragile and conflict-affected situation, or both"
+   },
+   {
+    "source_id": "ppp2026-overview",
+    "page": 27,
+    "evidence": "If economies grow over the coming years at the per capita economic growth rates experienced from 2015 to 2024, both the global extreme poverty rate and the number of people living in extreme poverty will be higher in 2030 than today."
+   }
+  ],
+  "answer": "By 2030, 87 percent of the world’s extreme poor are projected to live in Sub-Saharan Africa, in a fragile and conflict-affected situation, or both [S:ppp2026-overview:p017:c0001].",
+  "citations": [
+   "S:ppp2026-overview:p017:c0001"
+  ]
+ },
+ {
+  "run": "agent-rerank-dev",
+  "id": "d-q09",
+  "status": "answered",
+  "answerable": true,
+  "q": "How did the number of high-inequality economies (Gini above 40) change between 2000 and 2024?",
+  "expected": "It fell from 70 economies in 2000 to 42 in 2024.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 19,
+    "evidence": "The number of economies with a Gini index above 40 fell from 70 in 2000 to 42 in 2024"
+   },
+   {
+    "source_id": "ppp2026-overview",
+    "page": 28,
+    "evidence": "The report's count of high-inequality economies illustrates what a headline figure may conceal. The count fell from 70 in 2000 to 42 in 2024, a decline of more than one-third."
+   }
+  ],
+  "answer": "The number fell from 70 economies in 2000 to 42 in 2024—a decline of 28 economies, or 40% (more than one-third) [S:ppp2026-overview:p019:c0002] [S:ppp2026-overview:p028:c0002].",
+  "citations": [
+   "S:ppp2026-overview:p019:c0002",
+   "S:ppp2026-overview:p028:c0002"
+  ]
+ },
+ {
+  "run": "agent-rerank-dev",
+  "id": "d-q11",
+  "status": "answered",
+  "answerable": true,
+  "q": "What was the Global Prosperity Gap in 1990, in 2013 and in 2026?",
+  "expected": "In 1990 incomes needed to rise 10.5-fold; the gap had fallen to 5.5 by 2013 and stood at 4.5 in 2026.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 19,
+    "evidence": "By 2013, the Prosperity Gap had fallen to 5.5, and it stood at 4.5 in 2026"
+   }
+  ],
+  "answer": "The Global Prosperity Gap was 10.5 in 1990, 5.5 in 2013, and 4.5 in 2026 [S:ppp2026-overview:p019:c0003].",
+  "citations": [
+   "S:ppp2026-overview:p019:c0003"
+  ]
+ },
+ {
+  "run": "agent-rerank-dev",
+  "id": "d-q12",
+  "status": "answered",
+  "answerable": true,
+  "q": "What is the Prosperity Gap in Sub-Saharan Africa, and how does it compare with the global average?",
+  "expected": "It is at 11.1, twice the global average and roughly where the world stood in 1990.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 19,
+    "evidence": "The gap in Sub-Saharan Africa is at 11.1, twice the global average and roughly where the world stood in 1990."
+   },
+   {
+    "source_id": "ppp2026-overview",
+    "page": 28,
+    "evidence": "In Sub-Saharan Africa, consistent with the stalling poverty reduction, the pace is 0.7 percent a year."
+   }
+  ],
+  "answer": "In 2026, Sub-Saharan Africa’s Prosperity Gap is 11.1, meaning incomes must rise by a factor of about 11.1 on average to reach the $28-per-person-per-day prosperity standard. This is twice the global average Prosperity Gap of 4.5 and is roughly where the global gap stood in 1990 [S:ppp2026-overview:p019:c0003] [S:ppp2026-overview:p028:c0005].",
+  "citations": [
+   "S:ppp2026-overview:p019:c0003",
+   "S:ppp2026-overview:p028:c0005"
+  ]
+ },
+ {
+  "run": "agent-rerank-dev",
+  "id": "d-q13",
+  "status": "answered",
+  "answerable": true,
+  "q": "Of the people exposed to a major climate hazard, how many are also highly vulnerable because they lack social protection or basic infrastructure?",
+  "expected": "1.5 billion of the 4.6 billion exposed.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 20,
+    "evidence": "Of the 4.6 billion people exposed to a major climate hazard, 1.5 billion are also highly vulnerable because they lack social protection or access to basic infrastructure"
+   },
+   {
+    "source_id": "ppp2026-overview",
+    "page": 29,
+    "evidence": "Around 4.6 billion people live in exposed areas, and 2.7 billion live in highly vulnerable conditions; about 1.5 billion people experience both types of vulnerability."
+   }
+  ],
+  "answer": "1.5 billion people [S:ppp2026-overview:p020:c0001]",
+  "citations": [
+   "S:ppp2026-overview:p020:c0001"
+  ]
+ },
+ {
+  "run": "agent-rerank-dev",
+  "id": "d-q15",
+  "status": "answered",
+  "answerable": true,
+  "q": "What were global greenhouse gas emissions in 2024 and how much higher were they than in 2000?",
+  "expected": "52.8 GtCO2e in 2024, about 48 percent above the 2000 level.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 21,
+    "evidence": "reached 52.8 metric gigatons of carbon dioxide equivalent (GtCO2e) in 2024, 48 percent above the levels in 2000"
+   },
+   {
+    "source_id": "ppp2026-overview",
+    "page": 29,
+    "evidence": "GHG emissions, excluding those from land use, forestry, and changes in land use, reached 52.8 metric gigatons of carbon dioxide equivalent (GtCO2e) in 2024, about 48.0 percent above the levels in 2000, although they rose by only 0.6 percent in 2024."
+   }
+  ],
+  "answer": "Global greenhouse gas emissions, excluding land use, land-use change, and forestry, reached 52.8 metric gigatons of carbon dioxide equivalent (GtCO2e) in 2024—48% higher than in 2000 [S:ppp2026-overview:p021:c0000].",
+  "citations": [
+   "S:ppp2026-overview:p021:c0000"
+  ]
+ },
+ {
+  "run": "agent-rerank-dev",
+  "id": "d-q17",
+  "status": "answered",
+  "answerable": true,
+  "q": "How do the employment rates of working-age adults in poor households compare with those in nonpoor households?",
+  "expected": "Poor-household adults are employed at rates only 6 percentage points below nonpoor-household adults.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 22,
+    "evidence": "Working-age adults in poor households are employed at rates only 6 percentage points below the corresponding rates in nonpoor households"
+   },
+   {
+    "source_id": "ppp2026-overview",
+    "page": 31,
+    "evidence": "About three in five working-age adults in poor households are employed, some 6 percentage points below the rate among adults in nonpoor households."
+   }
+  ],
+  "answer": "Employment rates are similar: about three in five working-age adults in poor households are employed, just 6 percentage points below the employment rate among adults in nonpoor households [S:ppp2026-overview:p031:c0004].",
+  "citations": [
+   "S:ppp2026-overview:p031:c0004"
+  ]
+ },
+ {
+  "run": "agent-rerank-dev",
+  "id": "d-q18",
+  "status": "answered",
+  "answerable": true,
+  "q": "In how many of the 138 economies did employment among the poor fall over 2003-24?",
+  "expected": "88 of 138 economies.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 22,
+    "evidence": "Employment among the poor fell in 88 of 138 economies over 2003-24"
+   },
+   {
+    "source_id": "ppp2026-overview",
+    "page": 31,
+    "evidence": "From 2003 to 2024, employment rates among the poor fell in 88 of 138 countries"
+   }
+  ],
+  "answer": "Employment among the poor fell in 88 of the 138 economies over 2003–24 [S:ppp2026-overview:p022:c0001].",
+  "citations": [
+   "S:ppp2026-overview:p022:c0001"
+  ]
+ },
+ {
+  "run": "agent-rerank-dev",
+  "id": "n01",
+  "status": "abstain",
+  "answerable": false,
+  "q": "What is the extreme poverty rate in Vietnam?",
+  "expected": null,
+  "absence": "Đã tìm toàn văn 'Vietnam' trong PDF (trang 1-36), không có kết quả. Booklet chỉ báo cáo số liệu toàn cầu và theo khu vực, không có tỷ lệ nghèo cực đoan theo từng quốc gia.",
+  "gold": null,
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": []
+ },
+ {
+  "run": "agent-rerank-dev",
+  "id": "n02",
+  "status": "abstain",
+  "answerable": false,
+  "q": "How much would a global carbon tax reduce greenhouse gas emissions by 2030?",
+  "expected": null,
+  "absence": "Đã tìm toàn văn 'carbon tax' trong PDF, không có kết quả. Phần về phát thải khí (trang 21, 29-30) chỉ báo cáo mức phát thải, xu hướng và đối chiếu chi phí-lợi ích, không đề cập chính sách thuế carbon.",
+  "gold": null,
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": []
+ },
+ {
+  "run": "agent-dense-test",
+  "id": "t01",
+  "status": "answered",
+  "answerable": true,
+  "q": "In how many economies do more than half of the world's extreme poor live?",
+  "expected": "Nine economies.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 17,
+    "evidence": "More than half the extreme poor are living in nine economies"
+   }
+  ],
+  "answer": "More than half of the world's extreme poor live in 9 economies [S:ppp2026-overview:p027:c0008].",
+  "citations": [
+   "S:ppp2026-overview:p027:c0008"
+  ]
+ },
+ {
+  "run": "agent-dense-test",
+  "id": "t02",
+  "status": "answered",
+  "answerable": true,
+  "q": "What share of Sub-Saharan Africa's Prosperity Gap is accounted for by its three most populous economies, and which three are they?",
+  "expected": "40 percent; the Democratic Republic of Congo, Ethiopia and Nigeria.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 28,
+    "evidence": "The region's three most populous economies, the Democratic Republic of Congo, Ethiopia, and Nigeria, account for 40 percent of the regional Prosperity Gap."
+   }
+  ],
+  "answer": "The Democratic Republic of Congo, Ethiopia, and Nigeria account for 40 percent of Sub-Saharan Africa’s Prosperity Gap [S:ppp2026-overview:p028:c0006].",
+  "citations": [
+   "S:ppp2026-overview:p028:c0006"
+  ]
+ },
+ {
+  "run": "agent-dense-test",
+  "id": "t03",
+  "status": "answered",
+  "answerable": true,
+  "q": "How many fewer hours a week do poor workers put in than nonpoor workers, and where is that gap widest?",
+  "expected": "About three to four fewer hours a week; the gap is largest in the poorest countries and among the self-employed.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 31,
+    "evidence": "Poor workers put in about three to four fewer hours a week relative to nonpoor workers, whether wage earners or self-employed, and the gap is largest in the poorest countries and among the self-employed."
+   }
+  ],
+  "answer": "Poor workers work about three to four fewer hours per week than nonpoor workers. The gap is widest in the poorest countries and among self-employed workers. [S:ppp2026-overview:p031:c0004]",
+  "citations": [
+   "S:ppp2026-overview:p031:c0004"
+  ]
+ },
+ {
+  "run": "agent-dense-test",
+  "id": "t04",
+  "status": "answered",
+  "answerable": true,
+  "q": "By how much would raising the educational attainment of poor workers to the nonpoor average reduce the extreme poverty rate?",
+  "expected": "By nearly half.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 24,
+    "evidence": "raising education to the nonpoor average cuts extreme poverty by nearly half"
+   },
+   {
+    "source_id": "ppp2026-overview",
+    "page": 32,
+    "evidence": "Lifting the educational attainment of poor workers to the nonpoor average would cut the extreme poverty rate by nearly half."
+   }
+  ],
+  "answer": "Raising poor workers’ educational attainment to the nonpoor average would reduce the extreme poverty rate by nearly half [S:ppp2026-overview:p032:c0002].",
+  "citations": [
+   "S:ppp2026-overview:p032:c0002"
+  ]
+ },
+ {
+  "run": "agent-dense-test",
+  "id": "t05",
+  "status": "answered",
+  "answerable": true,
+  "q": "What overtook agriculture as the leading driver of tropical primary forest loss in 2024?",
+  "expected": "Fires.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 30,
+    "evidence": "Fires overtook agriculture as the leading driver of loss."
+   }
+  ],
+  "answer": "Fires overtook agriculture as the leading driver of tropical primary forest loss in 2024 [S:ppp2026-overview:p030:c0001].",
+  "citations": [
+   "S:ppp2026-overview:p030:c0001"
+  ]
+ },
+ {
+  "run": "agent-dense-test",
+  "id": "n03",
+  "status": "abstain",
+  "answerable": false,
+  "q": "How much would a universal basic income reduce global extreme poverty?",
+  "expected": null,
+  "absence": "Đã tìm toàn văn 'basic income' trong PDF, không có kết quả. Các mô phỏng được nêu (trang 24, 32) chỉ dựa trên việc nâng tỷ lệ có việc làm và năng suất lao động, không có chuyển trả tiền mặt phổ quát.",
+  "gold": null,
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": []
+ },
+ {
+  "run": "agent-dense-test",
+  "id": "n04",
+  "status": "abstain",
+  "answerable": false,
+  "q": "What is the Gini index of Nigeria?",
+  "expected": null,
+  "absence": "Đã tìm toàn văn các tên quốc gia kèm 'Gini' trong PDF, không có kết quả. Trang 28 chỉ nêu Nigeria chiếm 18% dân số và 16% Prosperity Gap của khu vực, không nêu chỉ số Gini của từng quốc gia.",
+  "gold": null,
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": []
+ },
+ {
+  "run": "agent-rerank-test",
+  "id": "t01",
+  "status": "answered",
+  "answerable": true,
+  "q": "In how many economies do more than half of the world's extreme poor live?",
+  "expected": "Nine economies.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 17,
+    "evidence": "More than half the extreme poor are living in nine economies"
+   }
+  ],
+  "answer": "More than half of the world's extreme poor live in 9 economies [S:ppp2026-overview:p027:c0008].",
+  "citations": [
+   "S:ppp2026-overview:p027:c0008"
+  ]
+ },
+ {
+  "run": "agent-rerank-test",
+  "id": "t02",
+  "status": "answered",
+  "answerable": true,
+  "q": "What share of Sub-Saharan Africa's Prosperity Gap is accounted for by its three most populous economies, and which three are they?",
+  "expected": "40 percent; the Democratic Republic of Congo, Ethiopia and Nigeria.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 28,
+    "evidence": "The region's three most populous economies, the Democratic Republic of Congo, Ethiopia, and Nigeria, account for 40 percent of the regional Prosperity Gap."
+   }
+  ],
+  "answer": "Nigeria, Ethiopia, and the Democratic Republic of Congo—the region’s three most populous economies—account for 40 percent of Sub-Saharan Africa’s Prosperity Gap [S:ppp2026-overview:p028:c0006].",
+  "citations": [
+   "S:ppp2026-overview:p028:c0006"
+  ]
+ },
+ {
+  "run": "agent-rerank-test",
+  "id": "t03",
+  "status": "answered",
+  "answerable": true,
+  "q": "How many fewer hours a week do poor workers put in than nonpoor workers, and where is that gap widest?",
+  "expected": "About three to four fewer hours a week; the gap is largest in the poorest countries and among the self-employed.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 31,
+    "evidence": "Poor workers put in about three to four fewer hours a week relative to nonpoor workers, whether wage earners or self-employed, and the gap is largest in the poorest countries and among the self-employed."
+   }
+  ],
+  "answer": "Poor workers put in about three to four fewer hours per week than nonpoor workers. The gap is widest in the poorest countries and among the self-employed [S:ppp2026-overview:p031:c0004].",
+  "citations": [
+   "S:ppp2026-overview:p031:c0004"
+  ]
+ },
+ {
+  "run": "agent-rerank-test",
+  "id": "t04",
+  "status": "answered",
+  "answerable": true,
+  "q": "By how much would raising the educational attainment of poor workers to the nonpoor average reduce the extreme poverty rate?",
+  "expected": "By nearly half.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 24,
+    "evidence": "raising education to the nonpoor average cuts extreme poverty by nearly half"
+   },
+   {
+    "source_id": "ppp2026-overview",
+    "page": 32,
+    "evidence": "Lifting the educational attainment of poor workers to the nonpoor average would cut the extreme poverty rate by nearly half."
+   }
+  ],
+  "answer": "Raising poor workers’ educational attainment to the nonpoor average would cut the extreme poverty rate by nearly half [S:ppp2026-overview:p032:c0002].",
+  "citations": [
+   "S:ppp2026-overview:p032:c0002"
+  ]
+ },
+ {
+  "run": "agent-rerank-test",
+  "id": "t05",
+  "status": "answered",
+  "answerable": true,
+  "q": "What overtook agriculture as the leading driver of tropical primary forest loss in 2024?",
+  "expected": "Fires.",
+  "absence": null,
+  "gold": [
+   {
+    "source_id": "ppp2026-overview",
+    "page": 30,
+    "evidence": "Fires overtook agriculture as the leading driver of loss."
+   }
+  ],
+  "answer": "Fires overtook agriculture as the leading driver of tropical primary forest loss in 2024 [S:ppp2026-overview:p030:c0001].",
+  "citations": [
+   "S:ppp2026-overview:p030:c0001"
+  ]
+ },
+ {
+  "run": "agent-rerank-test",
+  "id": "n03",
+  "status": "abstain",
+  "answerable": false,
+  "q": "How much would a universal basic income reduce global extreme poverty?",
+  "expected": null,
+  "absence": "Đã tìm toàn văn 'basic income' trong PDF, không có kết quả. Các mô phỏng được nêu (trang 24, 32) chỉ dựa trên việc nâng tỷ lệ có việc làm và năng suất lao động, không có chuyển trả tiền mặt phổ quát.",
+  "gold": null,
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": []
+ },
+ {
+  "run": "agent-rerank-test",
+  "id": "n04",
+  "status": "abstain",
+  "answerable": false,
+  "q": "What is the Gini index of Nigeria?",
+  "expected": null,
+  "absence": "Đã tìm toàn văn các tên quốc gia kèm 'Gini' trong PDF, không có kết quả. Trang 28 chỉ nêu Nigeria chiếm 18% dân số và 16% Prosperity Gap của khu vực, không nêu chỉ số Gini của từng quốc gia.",
+  "gold": null,
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": []
+ }
+]

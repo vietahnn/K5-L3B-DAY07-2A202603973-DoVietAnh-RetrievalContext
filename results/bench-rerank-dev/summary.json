@@ -1,0 +1,20 @@
+{
+  "method": "rerank",
+  "split": "dev",
+  "n_questions": 17,
+  "n_answerable": 15,
+  "n_no_evidence": 2,
+  "hit_at_1": 15,
+  "hit_at_1_pct": 100.0,
+  "evidence_hit_at_3": 15,
+  "evidence_hit_at_3_pct": 100.0,
+  "context_evidence_rate": 15,
+  "context_evidence_rate_pct": 100.0,
+  "recall_at_3_pct": 100.0,
+  "mrr": 1.0,
+  "median_first_hit_rank": 1,
+  "median_ms": 1053.0,
+  "mean_ms": 1266.7,
+  "mean_context_chars": 1860.2,
+  "errors": 0
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "query_id": "t01",
+    "citation_support": [
+      true
+    ],
+    "notes": "CẢ NƯỚC: mọi citation chứa gold. ĐỌC câu trả lời và đối chiếu bản gốc trước khi chốt 2; hạ xuống 1 nếu thiếu điều kiện/số.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "t02",
+    "citation_support": [
+      true
+    ],
+    "notes": "CẢ NƯỚC: mọi citation chứa gold. ĐỌC câu trả lời và đối chiếu bản gốc trước khi chốt 2; hạ xuống 1 nếu thiếu điều kiện/số.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "t03",
+    "citation_support": [
+      true
+    ],
+    "notes": "CẢ NƯỚC: mọi citation chứa gold. ĐỌC câu trả lời và đối chiếu bản gốc trước khi chốt 2; hạ xuống 1 nếu thiếu điều kiện/số.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "t04",
+    "citation_support": [
+      true
+    ],
+    "notes": "CẢ NƯỚC: mọi citation chứa gold. ĐỌC câu trả lời và đối chiếu bản gốc trước khi chốt 2; hạ xuống 1 nếu thiếu điều kiện/số.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "t05",
+    "citation_support": [
+      true
+    ],
+    "notes": "CẢ NƯỚC: mọi citation chứa gold. ĐỌC câu trả lời và đối chiếu bản gốc trước khi chốt 2; hạ xuống 1 nếu thiếu điều kiện/số.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "n03",
+    "citation_support": [],
+    "notes": "ĐỀ XUẤT abstention_correct=true (agent từ chối bằng câu cố định). Xác nhận agent không thêm khẳng định vô căn cứ.",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "n04",
+    "citation_support": [],
+    "notes": "ĐỀ XUẤT abstention_correct=true (agent từ chối bằng câu cố định). Xác nhận agent không thêm khẳng định vô căn cứ.",
+    "abstention_correct": true
+  }
+]

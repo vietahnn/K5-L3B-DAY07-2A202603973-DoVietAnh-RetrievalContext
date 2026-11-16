@@ -1,0 +1,65 @@
+[
+  {
+    "id": "t01",
+    "split": "test",
+    "question": "In how many economies do more than half of the world's extreme poor live?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Nine economies.",
+    "absence_reason": null
+  },
+  {
+    "id": "t02",
+    "split": "test",
+    "question": "What share of Sub-Saharan Africa's Prosperity Gap is accounted for by its three most populous economies, and which three are they?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "40 percent; the Democratic Republic of Congo, Ethiopia and Nigeria.",
+    "absence_reason": null
+  },
+  {
+    "id": "t03",
+    "split": "test",
+    "question": "How many fewer hours a week do poor workers put in than nonpoor workers, and where is that gap widest?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "About three to four fewer hours a week; the gap is largest in the poorest countries and among the self-employed.",
+    "absence_reason": null
+  },
+  {
+    "id": "t04",
+    "split": "test",
+    "question": "By how much would raising the educational attainment of poor workers to the nonpoor average reduce the extreme poverty rate?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "By nearly half.",
+    "absence_reason": null
+  },
+  {
+    "id": "t05",
+    "split": "test",
+    "question": "What overtook agriculture as the leading driver of tropical primary forest loss in 2024?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Fires.",
+    "absence_reason": null
+  },
+  {
+    "id": "n03",
+    "split": "test",
+    "question": "How much would a universal basic income reduce global extreme poverty?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "expected_answer": null,
+    "absence_reason": "Đã tìm toàn văn 'basic income' trong PDF, không có kết quả. Các mô phỏng được nêu (trang 24, 32) chỉ dựa trên việc nâng tỷ lệ có việc làm và năng suất lao động, không có chuyển trả tiền mặt phổ quát."
+  },
+  {
+    "id": "n04",
+    "split": "test",
+    "question": "What is the Gini index of Nigeria?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "expected_answer": null,
+    "absence_reason": "Đã tìm toàn văn các tên quốc gia kèm 'Gini' trong PDF, không có kết quả. Trang 28 chỉ nêu Nigeria chiếm 18% dân số và 16% Prosperity Gap của khu vực, không nêu chỉ số Gini của từng quốc gia."
+  }
+]

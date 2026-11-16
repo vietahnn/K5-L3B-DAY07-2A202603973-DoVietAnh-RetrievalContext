@@ -1,0 +1,366 @@
+[
+  {
+    "query_id": "t01",
+    "split": "test",
+    "question": "In how many economies do more than half of the world's extreme poor live?",
+    "answerable": true,
+    "method": "hybrid",
+    "top_k": 3,
+    "filters_applied": null,
+    "results": [
+      {
+        "id": "S:ppp2026-overview:p027:c0008",
+        "rank": 1,
+        "score": 0.03278688524590164,
+        "source_id": "ppp2026-overview",
+        "source": "Poverty, Prosperity and Planet Report 2026 - Overview.pdf",
+        "page": 27,
+        "text": "Concentration is a key fact of global extreme poverty and inequality\nConcentration recurs across the findings of this report. More than half the world's extreme poor live in only 9 economies, while three-quarters live in 20 economies. Global poverty is concentrated both from a regional perspective and in terms of fragility. By 2030, 87 percent of"
+      },
+      {
+        "id": "S:ppp2026-overview:p017:c0001",
+        "rank": 2,
+        "score": 0.031754032258064516,
+        "source_id": "ppp2026-overview",
+        "source": "Poverty, Prosperity and Planet Report 2026 - Overview.pdf",
+        "page": 17,
+        "text": "Poverty\n2. Extreme poverty is concentrated, and demographic patterns will concentrate it further. More than half the extreme poor are living in nine economies, and, by 2030, 87 percent will be living in Sub-Saharan Africa, in a fragile and conflict-affected situation, or both (refer to figure 1, panel b). The population is growing most quickly where poverty rates are the highest; so, at the 2015-24 pace of economic growth, the global rate and the number of the extreme poor will be higher in 2030 than today."
+      },
+      {
+        "id": "S:ppp2026-overview:p026:c0002",
+        "rank": 3,
+        "score": 0.03128054740957967,
+        "source_id": "ppp2026-overview",
+        "source": "Poverty, Prosperity and Planet Report 2026 - Overview.pdf",
+        "page": 26,
+        "text": "Tracking the global path to ending extreme poverty, with jobs at the center\nOn prosperity, most people who have escaped extreme poverty have not reached the middle class, and nearly half of humanity is still living on less than $8.30 a day and remain vulnerable to falling back. Fewer economies are now highly unequal, but the share of the world's people living in these economies has not fallen, and the closing of the Global Prosperity Gap has slowed to a fraction of the earlier pace. On the planet, climate risk is reaching people far above the poverty line: while emissions are growing in economies where the poor do not live, ending extreme poverty would add little to global emissions."
+      }
+    ],
+    "elapsed_ms": 457.4,
+    "status": "ok",
+    "context": "[S:ppp2026-overview:p027:c0008 | Poverty, Prosperity and Planet Report 2026 - Overview.pdf | page 27]\nConcentration is a key fact of global extreme poverty and inequality\nConcentration recurs across the findings of this report. More than half the world's extreme poor live in only 9 economies, while three-quarters live in 20 economies. Global poverty is concentrated both from a regional perspective and in terms of fragility. By 2030, 87 percent of\n\n[S:ppp2026-overview:p017:c0001 | Poverty, Prosperity and Planet Report 2026 - Overview.pdf | page 17]\nPoverty\n2. Extreme poverty is concentrated, and demographic patterns will concentrate it further. More than half the extreme poor are living in nine economies, and, by 2030, 87 percent will be living in Sub-Saharan Africa, in a fragile and conflict-affected situation, or both (refer to figure 1, panel b). The population is growing most quickly where poverty rates are the highest; so, at the 2015-24 pace of economic growth, the global rate and the number of the extreme poor will be higher in 2030 than today.\n\n[S:ppp2026-overview:p026:c0002 | Poverty, Prosperity and Planet Report 2026 - Overview.pdf | page 26]\nTracking the global path to ending extreme poverty, with jobs at the center\nOn prosperity, most people who have escaped extreme poverty have not reached the middle class, and nearly half of humanity is still living on less than $8.30 a day and remain vulnerable to falling back. Fewer economies are now highly unequal, but the share of the world's people living in these economies has not fallen, and the closing of the Global Prosperity Gap has slowed to a fraction of the earlier pace. On the planet, climate risk is reaching people far above the poverty line: while emissions are growing in economies where the poor do not live, ending extreme poverty would add little to global emissions.",
+    "context_ids": [
+      "S:ppp2026-overview:p027:c0008",
+      "S:ppp2026-overview:p017:c0001",
+      "S:ppp2026-overview:p026:c0002"
+    ],
+    "context_chars": 1862,
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "first_hit_rank": 1,
+    "reciprocal_rank": 1.0,
+    "context_evidence": true
+  },
+  {
+    "query_id": "t02",
+    "split": "test",
+    "question": "What share of Sub-Saharan Africa's Prosperity Gap is accounted for by its three most populous economies, and which three are they?",
+    "answerable": true,
+    "method": "hybrid",
+    "top_k": 3,
+    "filters_applied": null,
+    "results": [
+      {
+        "id": "S:ppp2026-overview:p028:c0006",
+        "rank": 1,
+        "score": 0.03278688524590164,
+        "source_id": "ppp2026-overview",
+        "source": "Poverty, Prosperity and Planet Report 2026 - Overview.pdf",
+        "page": 28,
+        "text": "The region's three most populous economies, the Democratic Republic of Congo, Ethiopia, and Nigeria, account for 40 percent of the regional Prosperity Gap. All three are currently classified as fragile and conflict-affected states. Larger populations are only part of the story. Nigeria accounts for 18 percent of the population and 16 percent of the gap, and Ethiopia, for 10 percent and 8 percent, respectively. Yet, the Democratic Republic of Congo makes up 9 percent of the region's population, but accounts for 16 percent of its Prosperity Gap."
+      },
+      {
+        "id": "S:ppp2026-overview:p019:c0003",
+        "rank": 2,
+        "score": 0.031754032258064516,
+        "source_id": "ppp2026-overview",
+        "source": "Poverty, Prosperity and Planet Report 2026 - Overview.pdf",
+        "page": 19,
+        "text": "Prosperity\n5. The Prosperity Gap halved and then stalled. In 1990, incomes worldwide needed to rise 10.5-fold, on average, to reach the $28.00-a-person-a-day prosperity standard. By 2013, the Prosperity Gap had fallen to 5.5, and it stood at 4.5 in 2026 (refer to figure 2, panel b, left panel). Almost all the progress occurred before 2013. Over the latest decade, the gap has narrowed by only about 1.2 percent a year (refer to figure 2, panel b, right panel). The gap in Sub-Saharan Africa is at 11.1, twice the global average and roughly where the world stood in 1990."
+      },
+      {
+        "id": "S:ppp2026-overview:p028:c0005",
+        "rank": 3,
+        "score": 0.0315136476426799,
+        "source_id": "ppp2026-overview",
+        "source": "Poverty, Prosperity and Planet Report 2026 - Overview.pdf",
+        "page": 28,
+        "text": "The report's second prosperity indicator corroborates the diagnosis reached through the poverty data. The Global Prosperity Gap-the average factor by which incomes must be multiplied to reach a dignified and secure daily standard of living-has narrowed by half since 1990, but the narrowing in the gap has slowed appreciably since 2013. Of note, the countries in the East Asia and Pacific region have achieved remarkable improvements toward closing the gap by a 4.4 percent reduction per year. China accounts for much of the progress. In Sub-Saharan Africa, consistent with the stalling poverty reduction, the pace is 0.7 percent a year."
+      }
+    ],
+    "elapsed_ms": 593.4,
+    "status": "ok",
+    "context": "[S:ppp2026-overview:p028:c0006 | Poverty, Prosperity and Planet Report 2026 - Overview.pdf | page 28]\nThe region's three most populous economies, the Democratic Republic of Congo, Ethiopia, and Nigeria, account for 40 percent of the regional Prosperity Gap. All three are currently classified as fragile and conflict-affected states. Larger populations are only part of the story. Nigeria accounts for 18 percent of the population and 16 percent of the gap, and Ethiopia, for 10 percent and 8 percent, respectively. Yet, the Democratic Republic of Congo makes up 9 percent of the region's population, but accounts for 16 percent of its Prosperity Gap.\n\n[S:ppp2026-overview:p019:c0003 | Poverty, Prosperity and Planet Report 2026 - Overview.pdf | page 19]\nProsperity\n5. The Prosperity Gap halved and then stalled. In 1990, incomes worldwide needed to rise 10.5-fold, on average, to reach the $28.00-a-person-a-day prosperity standard. By 2013, the Prosperity Gap had fallen to 5.5, and it stood at 4.5 in 2026 (refer to figure 2, panel b, left panel). Almost all the progress occurred before 2013. Over the latest decade, the gap has narrowed by only about 1.2 percent a year (refer to figure 2, panel b, right panel). The gap in Sub-Saharan Africa is at 11.1, twice the global average and roughly where the world stood in 1990.\n\n[S:ppp2026-overview:p028:c0005 | Poverty, Prosperity and Planet Report 2026 - Overview.pdf | page 28]\nThe report's second prosperity indicator corroborates the diagnosis reached through the poverty data. The Global Prosperity Gap-the average factor by which incomes must be multiplied to reach a dignified and secure daily standard of living-has narrowed by half since 1990, but the narrowing in the gap has slowed appreciably since 2013. Of note, the countries in the East Asia and Pacific region have achieved remarkable improvements toward closing the gap by a 4.4 percent reduction per year. China accounts for much of the progress. In Sub-Saharan Africa, consistent with the stalling poverty reduction, the pace is 0.7 percent a year.",
+    "context_ids": [
+      "S:ppp2026-overview:p028:c0006",
+      "S:ppp2026-overview:p019:c0003",
+      "S:ppp2026-overview:p028:c0005"
+    ],
+    "context_chars": 2068,
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "first_hit_rank": 1,
+    "reciprocal_rank": 1.0,
+    "context_evidence": true
+  },
+  {
+    "query_id": "t03",
+    "split": "test",
+    "question": "How many fewer hours a week do poor workers put in than nonpoor workers, and where is that gap widest?",
+    "answerable": true,
+    "method": "hybrid",
+    "top_k": 3,
+    "filters_applied": null,
+    "results": [
+      {
+        "id": "S:ppp2026-overview:p022:c0001",
+        "rank": 1,
+        "score": 0.03278688524590164,
+        "source_id": "ppp2026-overview",
+        "source": "Poverty, Prosperity and Planet Report 2026 - Overview.pdf",
+        "page": 22,
+        "text": "Jobs\n8. Labor is the main and often only asset of the poor, but their work yields less income per household member than the work of the nonpoor. Working-age adults in poor households are employed at rates only 6 percentage points below the corresponding rates in nonpoor households, but poor workers put in three to four fewer hours a week and support three times as many dependents as workers in the richest households (refer to figure 4, panels a and b). The gap is widening. Employment among the poor fell in 88 of 138 economies over 2003-24, and earnings growth, not employment, delivered all growth in consumption per capita at the bottom of the distribution."
+      },
+      {
+        "id": "S:ppp2026-overview:p031:c0004",
+        "rank": 2,
+        "score": 0.03200204813108039,
+        "source_id": "ppp2026-overview",
+        "source": "Poverty, Prosperity and Planet Report 2026 - Overview.pdf",
+        "page": 31,
+        "text": "On employment rates, the poor fall only slightly short of the nonpoor. About three in five working-age adults in poor households are employed, some 6 percentage points below the rate among adults in nonpoor households. Joblessness thus accounts for only part of global poverty. The near parity in employment rates is a global average. The employment gap between the poor and the nonpoor is small or absent in poorer economies and wide in richer economies. It also conceals two shortfalls. Poor workers put in about three to four fewer hours a week relative to nonpoor workers, whether wage earners or self-employed, and the gap is largest in the poorest countries and among the self-employed."
+      },
+      {
+        "id": "S:ppp2026-overview:p027:c0003",
+        "rank": 3,
+        "score": 0.031754032258064516,
+        "source_id": "ppp2026-overview",
+        "source": "Poverty, Prosperity and Planet Report 2026 - Overview.pdf",
+        "page": 27,
+        "text": "Concentration is a key fact of global extreme poverty and inequality\nThird, it offers new findings, including that poor workers average fewer rather than more weekly hours on the job relative to nonpoor workers and that shifts into wage employment yield less poverty reduction in low-income economies than in richer economies."
+      }
+    ],
+    "elapsed_ms": 1272.3,
+    "status": "ok",
+    "context": "[S:ppp2026-overview:p022:c0001 | Poverty, Prosperity and Planet Report 2026 - Overview.pdf | page 22]\nJobs\n8. Labor is the main and often only asset of the poor, but their work yields less income per household member than the work of the nonpoor. Working-age adults in poor households are employed at rates only 6 percentage points below the corresponding rates in nonpoor households, but poor workers put in three to four fewer hours a week and support three times as many dependents as workers in the richest households (refer to figure 4, panels a and b). The gap is widening. Employment among the poor fell in 88 of 138 economies over 2003-24, and earnings growth, not employment, delivered all growth in consumption per capita at the bottom of the distribution.\n\n[S:ppp2026-overview:p031:c0004 | Poverty, Prosperity and Planet Report 2026 - Overview.pdf | page 31]\nOn employment rates, the poor fall only slightly short of the nonpoor. About three in five working-age adults in poor households are employed, some 6 percentage points below the rate among adults in nonpoor households. Joblessness thus accounts for only part of global poverty. The near parity in employment rates is a global average. The employment gap between the poor and the nonpoor is small or absent in poorer economies and wide in richer economies. It also conceals two shortfalls. Poor workers put in about three to four fewer hours a week relative to nonpoor workers, whether wage earners or self-employed, and the gap is largest in the poorest countries and among the self-employed.\n\n[S:ppp2026-overview:p027:c0003 | Poverty, Prosperity and Planet Report 2026 - Overview.pdf | page 27]\nConcentration is a key fact of global extreme poverty and inequality\nThird, it offers new findings, including that poor workers average fewer rather than more weekly hours on the job relative to nonpoor workers and that shifts into wage employment yield less poverty reduction in low-income economies than in richer economies.",
+    "context_ids": [
+      "S:ppp2026-overview:p022:c0001",
+      "S:ppp2026-overview:p031:c0004",
+      "S:ppp2026-overview:p027:c0003"
+    ],
+    "context_chars": 1992,
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "first_hit_rank": 2,
+    "reciprocal_rank": 0.5,
+    "context_evidence": true
+  },
+  {
+    "query_id": "t04",
+    "split": "test",
+    "question": "By how much would raising the educational attainment of poor workers to the nonpoor average reduce the extreme poverty rate?",
+    "answerable": true,
+    "method": "hybrid",
+    "top_k": 3,
+    "filters_applied": null,
+    "results": [
+      {
+        "id": "S:ppp2026-overview:p032:c0002",
+        "rank": 1,
+        "score": 0.03278688524590164,
+        "source_id": "ppp2026-overview",
+        "source": "Poverty, Prosperity and Planet Report 2026 - Overview.pdf",
+        "page": 32,
+        "text": "Better-paying work depends on productivity growth and the jobs that firms create\nRaising the earnings associated with the jobs held by the poor would reduce poverty further. Lifting the educational attainment of poor workers to the nonpoor average would cut the extreme poverty rate by nearly half. Labor movements out of agriculture and out of self-employment into wage work would contribute additional rate reductions."
+      },
+      {
+        "id": "S:ppp2026-overview:p024:c0000",
+        "rank": 2,
+        "score": 0.03225806451612903,
+        "source_id": "ppp2026-overview",
+        "source": "Poverty, Prosperity and Planet Report 2026 - Overview.pdf",
+        "page": 24,
+        "text": "9. More jobs and better-paying jobs both reduce poverty, but they reach different people. Raising employment in poor households to 75 percent, the rate poor men already attain, cuts extreme poverty by a fifth; raising education to the nonpoor average cuts extreme poverty by nearly half; and switching poor workers into nonagricultural employment or into wage work cuts it by a quarter to a third. All these simulations reduce the depth of poverty as well (refer to figure 4, panel c). The gains from better pay accrue mainly to the poorest. The gains from more work accrue mainly to the near-poor, among whom the nonworking adults are mostly women."
+      },
+      {
+        "id": "S:ppp2026-overview:p032:c0001",
+        "rank": 3,
+        "score": 0.030798389007344232,
+        "source_id": "ppp2026-overview",
+        "source": "Poverty, Prosperity and Planet Report 2026 - Overview.pdf",
+        "page": 32,
+        "text": "Better-paying work depends on productivity growth and the jobs that firms create\nHow much can more jobs and better-paying jobs contribute to poverty reduction? Simulations undertaken for this report show that raising the employment rate among poor households to a benchmark of 75 percent of working-age adults would reduce the global poverty rate by a fifth. This is roughly the employment rate already observed among men in poor households, among poor households two decades ago, and in the richest quintile of the global population. Reaching this rate would therefore require closing much of the gender gap in employment because nearly all the shortfall is among women."
+      }
+    ],
+    "elapsed_ms": 670.6,
+    "status": "ok",
+    "context": "[S:ppp2026-overview:p032:c0002 | Poverty, Prosperity and Planet Report 2026 - Overview.pdf | page 32]\nBetter-paying work depends on productivity growth and the jobs that firms create\nRaising the earnings associated with the jobs held by the poor would reduce poverty further. Lifting the educational attainment of poor workers to the nonpoor average would cut the extreme poverty rate by nearly half. Labor movements out of agriculture and out of self-employment into wage work would contribute additional rate reductions.\n\n[S:ppp2026-overview:p024:c0000 | Poverty, Prosperity and Planet Report 2026 - Overview.pdf | page 24]\n9. More jobs and better-paying jobs both reduce poverty, but they reach different people. Raising employment in poor households to 75 percent, the rate poor men already attain, cuts extreme poverty by a fifth; raising education to the nonpoor average cuts extreme poverty by nearly half; and switching poor workers into nonagricultural employment or into wage work cuts it by a quarter to a third. All these simulations reduce the depth of poverty as well (refer to figure 4, panel c). The gains from better pay accrue mainly to the poorest. The gains from more work accrue mainly to the near-poor, among whom the nonworking adults are mostly women.\n\n[S:ppp2026-overview:p032:c0001 | Poverty, Prosperity and Planet Report 2026 - Overview.pdf | page 32]\nBetter-paying work depends on productivity growth and the jobs that firms create\nHow much can more jobs and better-paying jobs contribute to poverty reduction? Simulations undertaken for this report show that raising the employment rate among poor households to a benchmark of 75 percent of working-age adults would reduce the global poverty rate by a fifth. This is roughly the employment rate already observed among men in poor households, among poor households two decades ago, and in the richest quintile of the global population. Reaching this rate would therefore require closing much of the gender gap in employment because nearly all the shortfall is among women.",
+    "context_ids": [
+      "S:ppp2026-overview:p032:c0002",
+      "S:ppp2026-overview:p024:c0000",
+      "S:ppp2026-overview:p032:c0001"
+    ],
+    "context_chars": 2050,
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "first_hit_rank": 1,
+    "reciprocal_rank": 1.0,
+    "context_evidence": true
+  },
+  {
+    "query_id": "t05",
+    "split": "test",
+    "question": "What overtook agriculture as the leading driver of tropical primary forest loss in 2024?",
+    "answerable": true,
+    "method": "hybrid",
+    "top_k": 3,
+    "filters_applied": null,
+    "results": [
+      {
+        "id": "S:ppp2026-overview:p030:c0001",
+        "rank": 1,
+        "score": 0.03278688524590164,
+        "source_id": "ppp2026-overview",
+        "source": "Poverty, Prosperity and Planet Report 2026 - Overview.pdf",
+        "page": 30,
+        "text": "More and better jobs are needed to tackle global poverty\nThe health of key ecosystems is also deteriorating. Tropical primary forest loss reached 6.7 million hectares in 2024, nearly twice the level of 2023. Fires overtook agriculture as the leading driver of loss. Forests, wetlands, and other ecosystems support livelihoods and economic activity by regulating water, sustaining agricultural production, storing carbon, and reducing exposure to environmental hazards. These services are especially important in poorer economies, where renewable natural capital represents a large share of national wealth."
+      },
+      {
+        "id": "S:ppp2026-overview:p029:c0005",
+        "rank": 2,
+        "score": 0.03036576949620428,
+        "source_id": "ppp2026-overview",
+        "source": "Poverty, Prosperity and Planet Report 2026 - Overview.pdf",
+        "page": 29,
+        "text": "Deprivations extend beyond monetary measures: A deteriorating planet threatens the gains against poverty\nGlobally, greenhouse gas (GHG) emissions continue to increase year on year. GHG emissions, excluding those from land use, forestry, and changes in land use, reached 52.8 metric gigatons of carbon dioxide equivalent (GtCO2e) in 2024, about 48.0 percent above the levels in 2000, although they rose by only 0.6 percent in 2024. While the rate of increase seems to be declining since 2000, emissions have yet to peak and decline."
+      },
+      {
+        "id": "S:ppp2026-overview:p031:c0007",
+        "rank": 3,
+        "score": 0.029957522915269395,
+        "source_id": "ppp2026-overview",
+        "source": "Poverty, Prosperity and Planet Report 2026 - Overview.pdf",
+        "page": 31,
+        "text": "First, agriculture has shed workers more quickly than other sectors have absorbed them, and the poor, concentrated in agriculture, have been the first to be affected. Second, technical change may have lowered the demand for less well educated workers. Third, women leaving agriculture face constraints in taking up other work, ranging from care responsibilities and social norms to transport. Among the poor, the exit from farming may more often therefore end in nonemployment."
+      }
+    ],
+    "elapsed_ms": 577.6,
+    "status": "ok",
+    "context": "[S:ppp2026-overview:p030:c0001 | Poverty, Prosperity and Planet Report 2026 - Overview.pdf | page 30]\nMore and better jobs are needed to tackle global poverty\nThe health of key ecosystems is also deteriorating. Tropical primary forest loss reached 6.7 million hectares in 2024, nearly twice the level of 2023. Fires overtook agriculture as the leading driver of loss. Forests, wetlands, and other ecosystems support livelihoods and economic activity by regulating water, sustaining agricultural production, storing carbon, and reducing exposure to environmental hazards. These services are especially important in poorer economies, where renewable natural capital represents a large share of national wealth.\n\n[S:ppp2026-overview:p029:c0005 | Poverty, Prosperity and Planet Report 2026 - Overview.pdf | page 29]\nDeprivations extend beyond monetary measures: A deteriorating planet threatens the gains against poverty\nGlobally, greenhouse gas (GHG) emissions continue to increase year on year. GHG emissions, excluding those from land use, forestry, and changes in land use, reached 52.8 metric gigatons of carbon dioxide equivalent (GtCO2e) in 2024, about 48.0 percent above the levels in 2000, although they rose by only 0.6 percent in 2024. While the rate of increase seems to be declining since 2000, emissions have yet to peak and decline.\n\n[S:ppp2026-overview:p031:c0007 | Poverty, Prosperity and Planet Report 2026 - Overview.pdf | page 31]\nFirst, agriculture has shed workers more quickly than other sectors have absorbed them, and the poor, concentrated in agriculture, have been the first to be affected. Second, technical change may have lowered the demand for less well educated workers. Third, women leaving agriculture face constraints in taking up other work, ranging from care responsibilities and social norms to transport. Among the poor, the exit from farming may more often therefore end in nonemployment.",
+    "context_ids": [
+      "S:ppp2026-overview:p030:c0001",
+      "S:ppp2026-overview:p029:c0005",
+      "S:ppp2026-overview:p031:c0007"
+    ],
+    "context_chars": 1924,
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "first_hit_rank": 1,
+    "reciprocal_rank": 1.0,
+    "context_evidence": true
+  },
+  {
+    "query_id": "n03",
+    "split": "test",
+    "question": "How much would a universal basic income reduce global extreme poverty?",
+    "answerable": false,
+    "method": "hybrid",
+    "top_k": 3,
+    "filters_applied": null,
+    "results": [
+      {
+        "id": "S:ppp2026-overview:p026:c0005",
+        "rank": 1,
+        "score": 0.03125,
+        "source_id": "ppp2026-overview",
+        "source": "Poverty, Prosperity and Planet Report 2026 - Overview.pdf",
+        "page": 26,
+        "text": "Tracking the global path to ending extreme poverty, with jobs at the center\nThe Poverty, Prosperity, and Planet Report tracks the progress in the effort to reduce extreme poverty and boost shared prosperity on a livable planet through eight vision indicators: the global poverty rates at the $3.00- and $8.30-a-person-a-day poverty lines, the Global Prosperity Gap, the count of high-inequality economies, and five planetary indicators-greenhouse gas emissions, people at high risk from climate hazards, the health of key ecosystems, food and nutrition insecurity, and access to water and sanitation-that track the natural conditions on which well-being depends."
+      },
+      {
+        "id": "S:ppp2026-overview:p027:c0004",
+        "rank": 2,
+        "score": 0.029957522915269395,
+        "source_id": "ppp2026-overview",
+        "source": "Poverty, Prosperity and Planet Report 2026 - Overview.pdf",
+        "page": 27,
+        "text": "Concentration is a key fact of global extreme poverty and inequality\nThis report opens with a sobering projection. If economies grow over the coming years at the per capita economic growth rates experienced from 2015 to 2024, both the global extreme poverty rate and the number of people living in extreme poverty will be higher in 2030 than today. This would not represent a mere pause, but a stunning reversal of the improvement in well-being of the preceding decades. Only sustained annual global economic growth of around 4 percent per capita would bring the global extreme poverty rate down to near the 3 percent target by 2050."
+      },
+      {
+        "id": "S:ppp2026-overview:p017:c0002",
+        "rank": 3,
+        "score": 0.029236022193768675,
+        "source_id": "ppp2026-overview",
+        "source": "Poverty, Prosperity and Planet Report 2026 - Overview.pdf",
+        "page": 17,
+        "text": "Poverty\n3. Escaping extreme poverty has not meant reaching the middle class. Nearly half of humanity, 3.7 billion people, is still living on less than $8.30 a day, the poverty line in upper-middle- income economies. Most people who have left extreme poverty since 2000 have moved only into the $3.00-$8.30 band: no longer extremely poor, but not economically secure, and one shock away from falling back into extreme poverty."
+      }
+    ],
+    "elapsed_ms": 465.3,
+    "status": "ok",
+    "context": "[S:ppp2026-overview:p026:c0005 | Poverty, Prosperity and Planet Report 2026 - Overview.pdf | page 26]\nTracking the global path to ending extreme poverty, with jobs at the center\nThe Poverty, Prosperity, and Planet Report tracks the progress in the effort to reduce extreme poverty and boost shared prosperity on a livable planet through eight vision indicators: the global poverty rates at the $3.00- and $8.30-a-person-a-day poverty lines, the Global Prosperity Gap, the count of high-inequality economies, and five planetary indicators-greenhouse gas emissions, people at high risk from climate hazards, the health of key ecosystems, food and nutrition insecurity, and access to water and sanitation-that track the natural conditions on which well-being depends.\n\n[S:ppp2026-overview:p027:c0004 | Poverty, Prosperity and Planet Report 2026 - Overview.pdf | page 27]\nConcentration is a key fact of global extreme poverty and inequality\nThis report opens with a sobering projection. If economies grow over the coming years at the per capita economic growth rates experienced from 2015 to 2024, both the global extreme poverty rate and the number of people living in extreme poverty will be higher in 2030 than today. This would not represent a mere pause, but a stunning reversal of the improvement in well-being of the preceding decades. Only sustained annual global economic growth of around 4 percent per capita would bring the global extreme poverty rate down to near the 3 percent target by 2050.\n\n[S:ppp2026-overview:p017:c0002 | Poverty, Prosperity and Planet Report 2026 - Overview.pdf | page 17]\nPoverty\n3. Escaping extreme poverty has not meant reaching the middle class. Nearly half of humanity, 3.7 billion people, is still living on less than $8.30 a day, the poverty line in upper-middle- income economies. Most people who have left extreme poverty since 2000 have moved only into the $3.00-$8.30 band: no longer extremely poor, but not economically secure, and one shock away from falling back into extreme poverty.",
+    "context_ids": [
+      "S:ppp2026-overview:p026:c0005",
+      "S:ppp2026-overview:p027:c0004",
+      "S:ppp2026-overview:p017:c0002"
+    ],
+    "context_chars": 2030,
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "first_hit_rank": null,
+    "reciprocal_rank": 0.0,
+    "context_evidence": false
+  },
+  {
+    "query_id": "n04",
+    "split": "test",
+    "question": "What is the Gini index of Nigeria?",
+    "answerable": false,
+    "method": "hybrid",
+    "top_k": 3,
+    "filters_applied": null,
+    "results": [
+      {
+        "id": "S:ppp2026-overview:p019:c0002",
+        "rank": 1,
+        "score": 0.03278688524590164,
+        "source_id": "ppp2026-overview",
+        "source": "Poverty, Prosperity and Planet Report 2026 - Overview.pdf",
+        "page": 19,
+        "text": "Prosperity\n4. High inequality is retreating across economies but persists across people. The number of economies with a Gini index above 40 fell from 70 in 2000 to 42 in 2024, and those economies still above the threshold cut their average Gini from 51 to 46. Nonetheless, one in five people worldwide is still living in a high-inequality economy, a share unchanged since 2013 (refer to figure 2, panel a), and 37 economies have never left the above-40 group in 25 years. The concentration of the extreme poor is happening here, too. The share in high-inequality economies nearly doubled, to 36 percent."
+      },
+      {
+        "id": "S:ppp2026-overview:p009:c0000",
+        "rank": 2,
+        "score": 0.031746031746031744,
+        "source_id": "ppp2026-overview",
+        "source": "Poverty, Prosperity and Planet Report 2026 - Overview.pdf",
+        "page": 9,
+        "text": "Foreword\nDecades of remarkable progress against poverty and inequality have given way to a period of slower and more uneven gains. Between 1990 and 2020, the share of the world's population living in extreme poverty fell from 43 percent to 11 percent, driven largely by gains in large middle-income economies. The number of economies with high inequality, measured by a Gini index above 40, declined from 70 in 2000 to 42 in 2024. But progress has slowed, and extreme poverty is increasingly concentrated in a few economies, most of them in Sub-Saharan Africa and in fragile and conflict-affected situations."
+      },
+      {
+        "id": "S:ppp2026-overview:p028:c0002",
+        "rank": 3,
+        "score": 0.0315136476426799,
+        "source_id": "ppp2026-overview",
+        "source": "Poverty, Prosperity and Planet Report 2026 - Overview.pdf",
+        "page": 28,
+        "text": "The report's count of high-inequality economies illustrates what a headline figure may conceal. The count fell from 70 in 2000 to 42 in 2024, a decline of more than one-third. Underlying this trend, the report's fresh duration analysis reveals two findings that emphasize the stubborn persistence of inequality. In 2000-24, the Gini index never rose above 40 in 79 economies and never fell below 40 in 37 economies. The middle is thin. Few economies spent between 5 and 20 years above the threshold before falling below the threshold. High inequality is apparently not a transitory state through which economies pass. It is a chronic condition either avoided or endured for decades."
+      }
+    ],
+    "elapsed_ms": 400.7,
+    "status": "ok",
+    "context": "[S:ppp2026-overview:p019:c0002 | Poverty, Prosperity and Planet Report 2026 - Overview.pdf | page 19]\nProsperity\n4. High inequality is retreating across economies but persists across people. The number of economies with a Gini index above 40 fell from 70 in 2000 to 42 in 2024, and those economies still above the threshold cut their average Gini from 51 to 46. Nonetheless, one in five people worldwide is still living in a high-inequality economy, a share unchanged since 2013 (refer to figure 2, panel a), and 37 economies have never left the above-40 group in 25 years. The concentration of the extreme poor is happening here, too. The share in high-inequality economies nearly doubled, to 36 percent.\n\n[S:ppp2026-overview:p009:c0000 | Poverty, Prosperity and Planet Report 2026 - Overview.pdf | page 9]\nForeword\nDecades of remarkable progress against poverty and inequality have given way to a period of slower and more uneven gains. Between 1990 and 2020, the share of the world's population living in extreme poverty fell from 43 percent to 11 percent, driven largely by gains in large middle-income economies. The number of economies with high inequality, measured by a Gini index above 40, declined from 70 in 2000 to 42 in 2024. But progress has slowed, and extreme poverty is increasingly concentrated in a few economies, most of them in Sub-Saharan Africa and in fragile and conflict-affected situations.\n\n[S:ppp2026-overview:p028:c0002 | Poverty, Prosperity and Planet Report 2026 - Overview.pdf | page 28]\nThe report's count of high-inequality economies illustrates what a headline figure may conceal. The count fell from 70 in 2000 to 42 in 2024, a decline of more than one-third. Underlying this trend, the report's fresh duration analysis reveals two findings that emphasize the stubborn persistence of inequality. In 2000-24, the Gini index never rose above 40 in 79 economies and never fell below 40 in 37 economies. The middle is thin. Few economies spent between 5 and 20 years above the threshold before falling below the threshold. High inequality is apparently not a transitory state through which economies pass. It is a chronic condition either avoided or endured for decades.",
+    "context_ids": [
+      "S:ppp2026-overview:p019:c0002",
+      "S:ppp2026-overview:p009:c0000",
+      "S:ppp2026-overview:p028:c0002"
+    ],
+    "context_chars": 2202,
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "first_hit_rank": null,
+    "reciprocal_rank": 0.0,
+    "context_evidence": false
+  }
+]

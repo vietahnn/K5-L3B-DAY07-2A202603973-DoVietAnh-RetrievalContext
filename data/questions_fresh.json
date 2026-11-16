@@ -1,0 +1,133 @@
+{
+  "notes": "Câu hỏi viết MỚI cho Day 7, không lấy từ bộ 50 câu của Day 6. Mọi câu có đáp án đều được trích từ trang PDF gốc và câu trích là nguyên văn. Các câu thiếu evidence viết theo chủ đề gần corpus nhưng không có trong tài liệu; `absence_reason` ghi lại cách đã kiểm tra.",
+  "answerable": [
+    {
+      "id": "t01",
+      "split": "test",
+      "question": "In how many economies do more than half of the world's extreme poor live?",
+      "expected_answer": "Nine economies.",
+      "gold": [
+        {
+          "source_id": "ppp2026-overview",
+          "page": 17,
+          "evidence": "More than half the extreme poor are living in nine economies"
+        },
+        {
+          "source_id": "ppp2026-overview",
+          "page": 27,
+          "evidence": "More than half the world's extreme poor live in only 9 economies"
+        }
+      ],
+      "filter": null
+    },
+    {
+      "id": "t02",
+      "split": "test",
+      "question": "What share of Sub-Saharan Africa's Prosperity Gap is accounted for by its three most populous economies, and which three are they?",
+      "expected_answer": "40 percent; the Democratic Republic of Congo, Ethiopia and Nigeria.",
+      "gold": [
+        {
+          "source_id": "ppp2026-overview",
+          "page": 28,
+          "evidence": "The region's three most populous economies, the Democratic Republic of Congo, Ethiopia, and Nigeria, account for 40 percent of the regional Prosperity Gap."
+        }
+      ],
+      "filter": null
+    },
+    {
+      "id": "t03",
+      "split": "test",
+      "question": "How many fewer hours a week do poor workers put in than nonpoor workers, and where is that gap widest?",
+      "expected_answer": "About three to four fewer hours a week; the gap is largest in the poorest countries and among the self-employed.",
+      "gold": [
+        {
+          "source_id": "ppp2026-overview",
+          "page": 31,
+          "evidence": "Poor workers put in about three to four fewer hours a week relative to nonpoor workers, whether wage earners or self-employed, and the gap is largest in the poorest countries and among the self-employed."
+        }
+      ],
+      "filter": null
+    },
+    {
+      "id": "t04",
+      "split": "test",
+      "question": "By how much would raising the educational attainment of poor workers to the nonpoor average reduce the extreme poverty rate?",
+      "expected_answer": "By nearly half.",
+      "gold": [
+        {
+          "source_id": "ppp2026-overview",
+          "page": 24,
+          "evidence": "raising education to the nonpoor average cuts extreme poverty by nearly half"
+        },
+        {
+          "source_id": "ppp2026-overview",
+          "page": 32,
+          "evidence": "Lifting the educational attainment of poor workers to the nonpoor average would cut the extreme poverty rate by nearly half."
+        }
+      ],
+      "filter": null
+    },
+    {
+      "id": "t05",
+      "split": "test",
+      "question": "What overtook agriculture as the leading driver of tropical primary forest loss in 2024?",
+      "expected_answer": "Fires.",
+      "gold": [
+        {
+          "source_id": "ppp2026-overview",
+          "page": 30,
+          "evidence": "Fires overtook agriculture as the leading driver of loss."
+        }
+      ],
+      "filter": null
+    },
+    {
+      "id": "t06",
+      "split": "test",
+      "question": "Where is the gap between multidimensional poverty and monetary poverty widest, and which deprivations drive it?",
+      "expected_answer": "In Sub-Saharan Africa and South Asia, driven by deprivations in education and sanitation.",
+      "gold": [
+        {
+          "source_id": "ppp2026-overview",
+          "page": 29,
+          "evidence": "This difference between multidimensional and monetary poverty is widest in Sub-Saharan Africa and South Asia, where it is driven by deprivations in education and sanitation."
+        }
+      ],
+      "filter": null
+    }
+  ],
+  "no_evidence": [
+    {
+      "id": "n01",
+      "split": "dev",
+      "question": "What is the extreme poverty rate in Vietnam?",
+      "answerable": false,
+      "expected_behavior": "search_and_abstain",
+      "absence_reason": "Đã tìm toàn văn 'Vietnam' trong PDF (trang 1-36), không có kết quả. Booklet chỉ báo cáo số liệu toàn cầu và theo khu vực, không có tỷ lệ nghèo cực đoan theo từng quốc gia."
+    },
+    {
+      "id": "n02",
+      "split": "dev",
+      "question": "How much would a global carbon tax reduce greenhouse gas emissions by 2030?",
+      "answerable": false,
+      "expected_behavior": "search_and_abstain",
+      "absence_reason": "Đã tìm toàn văn 'carbon tax' trong PDF, không có kết quả. Phần về phát thải khí (trang 21, 29-30) chỉ báo cáo mức phát thải, xu hướng và đối chiếu chi phí-lợi ích, không đề cập chính sách thuế carbon."
+    },
+    {
+      "id": "n03",
+      "split": "test",
+      "question": "How much would a universal basic income reduce global extreme poverty?",
+      "answerable": false,
+      "expected_behavior": "search_and_abstain",
+      "absence_reason": "Đã tìm toàn văn 'basic income' trong PDF, không có kết quả. Các mô phỏng được nêu (trang 24, 32) chỉ dựa trên việc nâng tỷ lệ có việc làm và năng suất lao động, không có chuyển trả tiền mặt phổ quát."
+    },
+    {
+      "id": "n04",
+      "split": "test",
+      "question": "What is the Gini index of Nigeria?",
+      "answerable": false,
+      "expected_behavior": "search_and_abstain",
+      "absence_reason": "Đã tìm toàn văn các tên quốc gia kèm 'Gini' trong PDF, không có kết quả. Trang 28 chỉ nêu Nigeria chiếm 18% dân số và 16% Prosperity Gap của khu vực, không nêu chỉ số Gini của từng quốc gia."
+    }
+  ]
+}

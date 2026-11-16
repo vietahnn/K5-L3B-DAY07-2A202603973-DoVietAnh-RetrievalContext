@@ -6,6 +6,9 @@ __pycache__/
 !.env.example
 .codex-log/
 
-# Local datasets and generated output; share permitted artifacts deliberately
+# Local starter data and generated output
 starter/data/
 starter/results/
+
+.chroma/
+*.pdf

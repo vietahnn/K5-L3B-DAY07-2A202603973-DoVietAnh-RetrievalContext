@@ -1,0 +1,13 @@
+# Cài torch TRƯỚC, bản CPU để tránh tải ~2.5GB CUDA:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+#   python -c "import torch; print(torch.__version__)"
+#
+# Rồi mới chạy:
+#   pip install -r requirements.txt
+
+chromadb>=1.5
+pymupdf>=1.24
+sentence-transformers>=3.0
+torch>=2.2
+openai>=2.0
+python-dotenv>=1.0

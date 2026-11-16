@@ -1,0 +1,134 @@
+[
+  {
+    "query_id": "d-q01",
+    "citation_support": [
+      false
+    ],
+    "answer_grade": null,
+    "notes": ""
+  },
+  {
+    "query_id": "d-q02",
+    "citation_support": [
+      false
+    ],
+    "answer_grade": null,
+    "notes": ""
+  },
+  {
+    "query_id": "d-q03",
+    "citation_support": [
+      false
+    ],
+    "answer_grade": null,
+    "notes": ""
+  },
+  {
+    "query_id": "d-q04",
+    "citation_support": [
+      false
+    ],
+    "answer_grade": null,
+    "notes": ""
+  },
+  {
+    "query_id": "d-q05",
+    "citation_support": [],
+    "answer_grade": null,
+    "notes": ""
+  },
+  {
+    "query_id": "d-q06",
+    "citation_support": [
+      false
+    ],
+    "answer_grade": null,
+    "notes": ""
+  },
+  {
+    "query_id": "d-q07",
+    "citation_support": [
+      false
+    ],
+    "answer_grade": null,
+    "notes": ""
+  },
+  {
+    "query_id": "d-q08",
+    "citation_support": [
+      false
+    ],
+    "answer_grade": null,
+    "notes": ""
+  },
+  {
+    "query_id": "d-q09",
+    "citation_support": [
+      false,
+      false
+    ],
+    "answer_grade": null,
+    "notes": ""
+  },
+  {
+    "query_id": "d-q11",
+    "citation_support": [
+      false
+    ],
+    "answer_grade": null,
+    "notes": ""
+  },
+  {
+    "query_id": "d-q12",
+    "citation_support": [
+      false,
+      false
+    ],
+    "answer_grade": null,
+    "notes": ""
+  },
+  {
+    "query_id": "d-q13",
+    "citation_support": [
+      false
+    ],
+    "answer_grade": null,
+    "notes": ""
+  },
+  {
+    "query_id": "d-q15",
+    "citation_support": [
+      false
+    ],
+    "answer_grade": null,
+    "notes": ""
+  },
+  {
+    "query_id": "d-q17",
+    "citation_support": [
+      false
+    ],
+    "answer_grade": null,
+    "notes": ""
+  },
+  {
+    "query_id": "d-q18",
+    "citation_support": [
+      false
+    ],
+    "answer_grade": null,
+    "notes": ""
+  },
+  {
+    "query_id": "n01",
+    "citation_support": [],
+    "abstention_correct": null,
+    "notes": ""
+  },
+  {
+    "query_id": "n02",
+    "citation_support": [],
+    "abstention_correct": null,
+    "notes": ""
+  }
+]

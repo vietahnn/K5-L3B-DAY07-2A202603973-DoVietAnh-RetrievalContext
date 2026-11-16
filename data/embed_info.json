@@ -1,0 +1,9 @@
+{
+  "model": "BAAI/bge-m3",
+  "dimensions": 1024,
+  "strategy": "structure",
+  "chunk_count": 190,
+  "embed_seconds": 105.86,
+  "store_seconds": 0.31,
+  "index_dir": "C:\\Users\\dovie\\OneDrive\\Desktop\\AI20K\\K5-L3B-DAY07-2A202603973-DoVietAnh-RetrievalContext\\.chroma"
+}

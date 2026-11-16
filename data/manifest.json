@@ -1,0 +1,266 @@
+{
+  "manifest_version": "1.0",
+  "sources": [
+    {
+      "source_id": "ppp2026-overview",
+      "title": "Poverty, Prosperity, and Planet Report 2026: Jobs at the Center of Poverty Eradication - Overview booklet",
+      "source_path_or_url": "Poverty, Prosperity and Planet Report 2026 - Overview.pdf",
+      "publisher": "International Bank for Reconstruction and Development / The World Bank",
+      "license_or_permission": "CC BY 3.0 IGO (Creative Commons Attribution 3.0 IGO)",
+      "license_url": "http://creativecommons.org/licenses/by/3.0/igo",
+      "accessed_at": "2026-11-16",
+      "doi": "10.1596/978-1-4648-2342-8",
+      "source_url": "https://hdl.handle.net/10986/45652",
+      "version_or_snapshot": "Overview booklet, printed 2026 (SKU 33975); no published revision date is stated in the document, so none is asserted",
+      "language": "en",
+      "physical_page_count": 36,
+      "content_page_count": 30,
+      "content_page_numbers": [
+        3,
+        4,
+        6,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        36
+      ],
+      "excluded_pages": {
+        "1": "cover page (image + title only)",
+        "2": "blank page",
+        "5": "inner half-title (duplicate of cover title)",
+        "7": "table of contents",
+        "8": "blank page",
+        "35": "blank page"
+      },
+      "total_normalized_chars": 69442,
+      "pages_by_section": {
+        "Overview": 14,
+        "Foreword": 2,
+        "Acknowledgments": 2,
+        "About the Team": 4,
+        "Main Messages": 8
+      },
+      "page_counting_rule": "A page counts as a content page if it carries substantive prose from the report. Cover, half-title, table of contents and blank pages are excluded; the excluded pages and the reason for each are listed under excluded_pages. Front matter that carries real content (copyright page, AI disclosure, foreword, acknowledgments, team bios) IS counted."
+    }
+  ],
+  "ingestion_errors": [
+    {
+      "page": 1,
+      "kind": "excluded_from_content_count",
+      "message": "cover page (image + title only)"
+    },
+    {
+      "page": 2,
+      "kind": "empty_page",
+      "message": "no extractable text (blank separator page)"
+    },
+    {
+      "page": 2,
+      "kind": "excluded_from_content_count",
+      "message": "blank page"
+    },
+    {
+      "page": 3,
+      "kind": "figure_chrome_dropped",
+      "message": "1 text blocks dropped as chart labels, legends or folios"
+    },
+    {
+      "page": 4,
+      "kind": "figure_chrome_dropped",
+      "message": "2 text blocks dropped as chart labels, legends or folios"
+    },
+    {
+      "page": 5,
+      "kind": "excluded_from_content_count",
+      "message": "inner half-title (duplicate of cover title)"
+    },
+    {
+      "page": 6,
+      "kind": "figure_chrome_dropped",
+      "message": "3 text blocks dropped as chart labels, legends or folios"
+    },
+    {
+      "page": 7,
+      "kind": "figure_chrome_dropped",
+      "message": "5 text blocks dropped as chart labels, legends or folios"
+    },
+    {
+      "page": 7,
+      "kind": "excluded_from_content_count",
+      "message": "table of contents"
+    },
+    {
+      "page": 8,
+      "kind": "empty_page",
+      "message": "no extractable text (blank separator page)"
+    },
+    {
+      "page": 8,
+      "kind": "excluded_from_content_count",
+      "message": "blank page"
+    },
+    {
+      "page": 9,
+      "kind": "figure_chrome_dropped",
+      "message": "1 text blocks dropped as chart labels, legends or folios"
+    },
+    {
+      "page": 10,
+      "kind": "figure_chrome_dropped",
+      "message": "5 text blocks dropped as chart labels, legends or folios"
+    },
+    {
+      "page": 11,
+      "kind": "figure_chrome_dropped",
+      "message": "1 text blocks dropped as chart labels, legends or folios"
+    },
+    {
+      "page": 12,
+      "kind": "figure_chrome_dropped",
+      "message": "1 text blocks dropped as chart labels, legends or folios"
+    },
+    {
+      "page": 13,
+      "kind": "figure_chrome_dropped",
+      "message": "1 text blocks dropped as chart labels, legends or folios"
+    },
+    {
+      "page": 14,
+      "kind": "figure_chrome_dropped",
+      "message": "1 text blocks dropped as chart labels, legends or folios"
+    },
+    {
+      "page": 15,
+      "kind": "figure_chrome_dropped",
+      "message": "1 text blocks dropped as chart labels, legends or folios"
+    },
+    {
+      "page": 16,
+      "kind": "figure_chrome_dropped",
+      "message": "1 text blocks dropped as chart labels, legends or folios"
+    },
+    {
+      "page": 17,
+      "kind": "figure_chrome_dropped",
+      "message": "1 text blocks dropped as chart labels, legends or folios"
+    },
+    {
+      "page": 18,
+      "kind": "figure_chrome_dropped",
+      "message": "45 text blocks dropped as chart labels, legends or folios"
+    },
+    {
+      "page": 19,
+      "kind": "figure_chrome_dropped",
+      "message": "40 text blocks dropped as chart labels, legends or folios"
+    },
+    {
+      "page": 20,
+      "kind": "figure_chrome_dropped",
+      "message": "42 text blocks dropped as chart labels, legends or folios"
+    },
+    {
+      "page": 21,
+      "kind": "figure_chrome_dropped",
+      "message": "25 text blocks dropped as chart labels, legends or folios"
+    },
+    {
+      "page": 22,
+      "kind": "figure_chrome_dropped",
+      "message": "40 text blocks dropped as chart labels, legends or folios"
+    },
+    {
+      "page": 23,
+      "kind": "figure_chrome_dropped",
+      "message": "42 text blocks dropped as chart labels, legends or folios"
+    },
+    {
+      "page": 24,
+      "kind": "figure_chrome_dropped",
+      "message": "1 text blocks dropped as chart labels, legends or folios"
+    },
+    {
+      "page": 26,
+      "kind": "figure_chrome_dropped",
+      "message": "1 text blocks dropped as chart labels, legends or folios"
+    },
+    {
+      "page": 27,
+      "kind": "figure_chrome_dropped",
+      "message": "1 text blocks dropped as chart labels, legends or folios"
+    },
+    {
+      "page": 28,
+      "kind": "figure_chrome_dropped",
+      "message": "1 text blocks dropped as chart labels, legends or folios"
+    },
+    {
+      "page": 29,
+      "kind": "figure_chrome_dropped",
+      "message": "1 text blocks dropped as chart labels, legends or folios"
+    },
+    {
+      "page": 30,
+      "kind": "figure_chrome_dropped",
+      "message": "1 text blocks dropped as chart labels, legends or folios"
+    },
+    {
+      "page": 31,
+      "kind": "figure_chrome_dropped",
+      "message": "1 text blocks dropped as chart labels, legends or folios"
+    },
+    {
+      "page": 32,
+      "kind": "figure_chrome_dropped",
+      "message": "1 text blocks dropped as chart labels, legends or folios"
+    },
+    {
+      "page": 33,
+      "kind": "figure_chrome_dropped",
+      "message": "1 text blocks dropped as chart labels, legends or folios"
+    },
+    {
+      "page": 34,
+      "kind": "figure_chrome_dropped",
+      "message": "2 text blocks dropped as chart labels, legends or folios"
+    },
+    {
+      "page": 35,
+      "kind": "empty_page",
+      "message": "no extractable text (blank separator page)"
+    },
+    {
+      "page": 35,
+      "kind": "excluded_from_content_count",
+      "message": "blank page"
+    },
+    {
+      "page": 36,
+      "kind": "figure_chrome_dropped",
+      "message": "4 text blocks dropped as chart labels, legends or folios"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+[
+  {
+    "id": "d-q01",
+    "split": "dev",
+    "question": "According to the Foreword, what share of the world's population lived in extreme poverty in 1990 and what share lived in it in 2020?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "43 percent in 1990 and about 11 percent in 2020.",
+    "absence_reason": null
+  },
+  {
+    "id": "d-q02",
+    "split": "dev",
+    "question": "How many people are estimated to live below the international extreme poverty line of $3.00 a day in 2026?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "An estimated 811 million people, 1 in 10.",
+    "absence_reason": null
+  },
+  {
+    "id": "d-q03",
+    "split": "dev",
+    "question": "What is the number of people living on less than $8.30 a day, and what share of humanity is that?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "3.7 billion people, nearly half of humanity.",
+    "absence_reason": null
+  },
+  {
+    "id": "d-q04",
+    "split": "dev",
+    "question": "How many people are exposed to climate hazards but lack the means to cope with them, and where do most of them live relative to the extreme poverty line?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "1.5 billion people, most of them living above the extreme poverty line.",
+    "absence_reason": null
+  },
+  {
+    "id": "d-q05",
+    "split": "dev",
+    "question": "How many economies does the report draw on for its new data, and what does that data provide for the first time?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "New data for more than 130 economies; it provides the first global profile of the work done by poor and nonpoor adults.",
+    "absence_reason": null
+  },
+  {
+    "id": "d-q06",
+    "split": "dev",
+    "question": "The decline in extreme poverty has stalled. If the 2000-13 pace had been kept up, how many more people would have escaped poverty?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "243 million additional people would have escaped poverty.",
+    "absence_reason": null
+  },
+  {
+    "id": "d-q07",
+    "split": "dev",
+    "question": "At which poverty lines has poverty reduction kept the earlier pace even though the extreme line has stagnated?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "At $4.20 and $8.30 a day; the stagnation is confined to the $3.00 extreme line.",
+    "absence_reason": null
+  },
+  {
+    "id": "d-q08",
+    "split": "dev",
+    "question": "By 2030, what share of the world's extreme poor is projected to live in Sub-Saharan Africa, in a fragile and conflict-affected situation, or both?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "87 percent.",
+    "absence_reason": null
+  },
+  {
+    "id": "d-q09",
+    "split": "dev",
+    "question": "How did the number of high-inequality economies (Gini above 40) change between 2000 and 2024?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "It fell from 70 economies in 2000 to 42 in 2024.",
+    "absence_reason": null
+  },
+  {
+    "id": "d-q11",
+    "split": "dev",
+    "question": "What was the Global Prosperity Gap in 1990, in 2013 and in 2026?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "In 1990 incomes needed to rise 10.5-fold; the gap had fallen to 5.5 by 2013 and stood at 4.5 in 2026.",
+    "absence_reason": null
+  },
+  {
+    "id": "d-q12",
+    "split": "dev",
+    "question": "What is the Prosperity Gap in Sub-Saharan Africa, and how does it compare with the global average?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "It is at 11.1, twice the global average and roughly where the world stood in 1990.",
+    "absence_reason": null
+  },
+  {
+    "id": "d-q13",
+    "split": "dev",
+    "question": "Of the people exposed to a major climate hazard, how many are also highly vulnerable because they lack social protection or basic infrastructure?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "1.5 billion of the 4.6 billion exposed.",
+    "absence_reason": null
+  },
+  {
+    "id": "d-q15",
+    "split": "dev",
+    "question": "What were global greenhouse gas emissions in 2024 and how much higher were they than in 2000?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "52.8 GtCO2e in 2024, about 48 percent above the 2000 level.",
+    "absence_reason": null
+  },
+  {
+    "id": "d-q17",
+    "split": "dev",
+    "question": "How do the employment rates of working-age adults in poor households compare with those in nonpoor households?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Poor-household adults are employed at rates only 6 percentage points below nonpoor-household adults.",
+    "absence_reason": null
+  },
+  {
+    "id": "d-q18",
+    "split": "dev",
+    "question": "In how many of the 138 economies did employment among the poor fall over 2003-24?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "88 of 138 economies.",
+    "absence_reason": null
+  },
+  {
+    "id": "n01",
+    "split": "dev",
+    "question": "What is the extreme poverty rate in Vietnam?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "expected_answer": null,
+    "absence_reason": "Đã tìm toàn văn 'Vietnam' trong PDF (trang 1-36), không có kết quả. Booklet chỉ báo cáo số liệu toàn cầu và theo khu vực, không có tỷ lệ nghèo cực đoan theo từng quốc gia."
+  },
+  {
+    "id": "n02",
+    "split": "dev",
+    "question": "How much would a global carbon tax reduce greenhouse gas emissions by 2030?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "expected_answer": null,
+    "absence_reason": "Đã tìm toàn văn 'carbon tax' trong PDF, không có kết quả. Phần về phát thải khí (trang 21, 29-30) chỉ báo cáo mức phát thải, xu hướng và đối chiếu chi phí-lợi ích, không đề cập chính sách thuế carbon."
+  }
+]

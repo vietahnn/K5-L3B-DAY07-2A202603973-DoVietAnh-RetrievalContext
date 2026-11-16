@@ -1,0 +1,54 @@
+[
+  {
+    "query_id": "t01",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "9 economies - đúng. Chunk p027 được trích dẫn nói 'More than half the world's extreme poor live in only 9 economies' - cùng sự thật với gold p17 nhưng khác văn bản, nên gold đã được bổ sung trang 27. KHÔNG phải lỗi của agent."
+  },
+  {
+    "query_id": "t02",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "40 percent; DRC, Ethiopia, Nigeria - đúng và đủ; citation p028 chứa gold."
+  },
+  {
+    "query_id": "t03",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "three to four fewer hours, widest in poorest countries and among the self-employed - đúng và đủ; citation p031 chứa gold."
+  },
+  {
+    "query_id": "t04",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "nearly half - đúng; citation p032 chứa gold."
+  },
+  {
+    "query_id": "t05",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "notes": "Fires - đúng; citation p030 chứa gold."
+  },
+  {
+    "query_id": "n03",
+    "abstention_correct": true,
+    "citation_support": [],
+    "notes": "Abstain sau 4 lượt search, không thêm khẳng định vô căn cứ. Đúng."
+  },
+  {
+    "query_id": "n04",
+    "abstention_correct": true,
+    "citation_support": [],
+    "notes": "Abstain sau 4 lượt search, không thêm khẳng định vô căn cứ. Đúng."
+  }
+]
